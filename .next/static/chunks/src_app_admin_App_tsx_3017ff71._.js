@@ -1,0 +1,20 @@
+(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push([typeof document === "object" ? document.currentScript : undefined, {
+
+"[project]/src/app/admin/App.tsx [app-client] (ecmascript, next/dynamic entry, async loader)": ((__turbopack_context__) => {
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.v((parentImport) => {
+    return Promise.all([
+  "static/chunks/src_app_admin_50ce3d42._.js",
+  "static/chunks/node_modules_react-select_dist_29dabc3a._.js",
+  "static/chunks/node_modules_react-icons_fa_index_mjs_d2e2d7f5._.js",
+  "static/chunks/node_modules_react-icons_lib_74ccc930._.js",
+  "static/chunks/node_modules_4a93e01b._.js",
+  "static/chunks/src_app_admin_App_tsx_53bcbce7._.js"
+].map((chunk) => __turbopack_context__.l(chunk))).then(() => {
+        return parentImport("[project]/src/app/admin/App.tsx [app-client] (ecmascript, next/dynamic entry)");
+    });
+});
+}}),
+}]);
