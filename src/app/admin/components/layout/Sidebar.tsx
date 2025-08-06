@@ -38,7 +38,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onToggle }) => {
       )}
 
       {/* Sidebar */}
-      <div className={`fixed left-0 top-0 h-full w-72 bg-gray-900 border-r border-gray-800 z-50 transform transition-transform duration-200 ease-in-out ${
+      <div className={`fixed left-0 top-0 h-full w-72 bg-black border-r border-gray-800 z-50 transform transition-transform duration-200 ease-in-out ${
         isOpen ? 'translate-x-0' : '-translate-x-full'
       } lg:translate-x-0 lg:static lg:z-0`}>
         <div className="flex items-center justify-between p-4 border-b border-gray-800">

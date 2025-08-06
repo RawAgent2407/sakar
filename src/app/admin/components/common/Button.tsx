@@ -1,5 +1,5 @@
 import React from 'react';
-import { DivideIcon as LucideIcon } from 'lucide-react';
+import { LucideIcon } from 'lucide-react';
 
 interface ButtonProps {
   variant?: 'primary' | 'secondary' | 'danger' | 'ghost';
@@ -28,9 +28,9 @@ export const Button: React.FC<ButtonProps> = ({
   
   const variantClasses = {
     primary: 'bg-red-600 text-white hover:bg-red-700 focus:ring-red-500',
-    secondary: 'bg-gray-700 text-white hover:bg-gray-600 focus:ring-gray-500',
+    secondary: 'bg-gray-800 text-white hover:bg-gray-700 focus:ring-gray-600',
     danger: 'bg-red-600 text-white hover:bg-red-700 focus:ring-red-500',
-    ghost: 'text-gray-300 hover:bg-gray-800 focus:ring-gray-600',
+    ghost: 'text-gray-300 hover:bg-gray-900 focus:ring-gray-700',
   };
   
   const sizeClasses = {

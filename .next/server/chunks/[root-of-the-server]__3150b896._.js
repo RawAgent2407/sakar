@@ -226,14 +226,12 @@ async function POST(req) {
     try {
         await connectDB();
         const data = await req.json();
-        console.log('POST /api/properties received data:', JSON.stringify(data, null, 2));
         const property = await Property.create(data);
         return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
             success: true,
             property
         });
     } catch (error) {
-        console.error('Property POST error:', error);
         return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
             success: false,
             message: 'Internal server error'
@@ -246,7 +244,6 @@ async function PUT(req) {
     try {
         await connectDB();
         const data = await req.json();
-        console.log('PUT /api/properties received data:', JSON.stringify(data, null, 2));
         if (!data._id) return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
             success: false,
             message: 'Missing property ID'
@@ -292,7 +289,6 @@ async function PUT(req) {
             property
         });
     } catch (error) {
-        console.error('Property PUT error:', error);
         return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
             success: false,
             message: 'Internal server error'

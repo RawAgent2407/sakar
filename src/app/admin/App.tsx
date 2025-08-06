@@ -46,7 +46,7 @@ const AppContent: React.FC = () => {
   // Show login page if not authenticated
   if (!isAuthenticated) {
     return (
-      <div className="h-screen bg-gray-900">
+      <div className="h-screen bg-black">
         <Login onLogin={login} />
         {toast && (
           <Toast
@@ -60,7 +60,7 @@ const AppContent: React.FC = () => {
   }
 
   return (
-    <div className="h-screen bg-gray-900 flex overflow-hidden">
+    <div className="h-screen bg-black flex overflow-hidden">
       <Sidebar isOpen={sidebarOpen} onToggle={toggleSidebar} />
       
       <div className="flex-1 flex flex-col overflow-hidden lg:ml-0">

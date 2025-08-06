@@ -36,7 +36,7 @@ export default async function CategoryPage({ params }: Props) {
           <h2 className="text-2xl sm:text-3xl font-medium text-white font-['Bricolage_Grotesque'] tracking-wide mb-8 pt-8">
             {name} Properties
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-8 pb-6 px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-8 pb-6 pl-0 pr-4 sm:pr-6 lg:pr-8">
             {properties.length === 0 ? (
               <div className="text-gray-400 col-span-full">No properties found in this category.</div>
             ) : (

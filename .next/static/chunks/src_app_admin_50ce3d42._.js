@@ -223,7 +223,7 @@ const Sidebar = ({ isOpen, onToggle })=>{
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: `fixed left-0 top-0 h-full w-72 bg-gray-900 border-r border-gray-800 z-50 transform transition-transform duration-200 ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0 lg:static lg:z-0`,
+                className: `fixed left-0 top-0 h-full w-72 bg-black border-r border-gray-800 z-50 transform transition-transform duration-200 ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0 lg:static lg:z-0`,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex items-center justify-between p-4 border-b border-gray-800",
@@ -354,9 +354,9 @@ const Button = ({ variant = 'primary', size = 'md', icon: Icon, iconPosition = '
     const baseClasses = 'inline-flex items-center justify-center font-medium rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900';
     const variantClasses = {
         primary: 'bg-red-600 text-white hover:bg-red-700 focus:ring-red-500',
-        secondary: 'bg-gray-700 text-white hover:bg-gray-600 focus:ring-gray-500',
+        secondary: 'bg-gray-800 text-white hover:bg-gray-700 focus:ring-gray-600',
         danger: 'bg-red-600 text-white hover:bg-red-700 focus:ring-red-500',
-        ghost: 'text-gray-300 hover:bg-gray-800 focus:ring-gray-600'
+        ghost: 'text-gray-300 hover:bg-gray-900 focus:ring-gray-700'
     };
     const sizeClasses = {
         sm: 'px-3 py-1.5 text-sm',
@@ -422,7 +422,7 @@ const Header = ({ onMenuToggle })=>{
     _s();
     const { user, logout, setCurrentPage } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$context$2f$AppContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useApp"])();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-        className: "h-16 bg-gray-900 border-b border-gray-800 px-6 flex items-center justify-between",
+        className: "h-16 bg-black border-b border-gray-800 px-6 flex items-center justify-between",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex items-center space-x-4",
@@ -552,7 +552,7 @@ const Footer = ()=>{
     _s();
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        className: "h-16 bg-gray-900 border-t border-gray-800 px-6 flex items-center justify-end space-x-4",
+        className: "h-16 bg-black border-t border-gray-800 px-6 flex items-center justify-end space-x-4",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$components$2f$common$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
             variant: "ghost",
             size: "sm",
@@ -622,9 +622,9 @@ const Toast = ({ message, type, onClose })=>{
         info: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$info$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Info$3e$__["Info"]
     };
     const colors = {
-        success: 'bg-green-900 border-green-700 text-green-200',
-        error: 'bg-red-900 border-red-700 text-red-200',
-        info: 'bg-blue-900 border-blue-700 text-blue-200'
+        success: 'bg-green-950 border-green-800 text-green-200',
+        error: 'bg-red-950 border-red-800 text-red-200',
+        info: 'bg-blue-950 border-blue-800 text-blue-200'
     };
     const Icon = icons[type];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -692,7 +692,7 @@ const Card = ({ children, className = '', padding = 'md' })=>{
         lg: 'p-8'
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: `bg-gray-900 border border-gray-800 rounded-lg ${paddingClasses[padding]} ${className}`,
+        className: `bg-black border border-gray-800 rounded-lg ${paddingClasses[padding]} ${className}`,
         children: children
     }, void 0, false, {
         fileName: "[project]/src/app/admin/components/common/Card.tsx",
@@ -720,10 +720,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 const Badge = ({ variant, children, size = 'md' })=>{
     const baseClasses = 'inline-flex items-center font-medium rounded-full';
     const variantClasses = {
-        success: 'bg-green-900 text-green-300',
-        warning: 'bg-yellow-900 text-yellow-300',
-        error: 'bg-red-900 text-red-300',
-        info: 'bg-blue-900 text-blue-300'
+        success: 'bg-green-950 text-green-200 border border-green-800',
+        warning: 'bg-yellow-950 text-yellow-200 border border-yellow-800',
+        error: 'bg-red-950 text-red-200 border border-red-800',
+        info: 'bg-blue-950 text-blue-200 border border-blue-800'
     };
     const sizeClasses = {
         sm: 'px-2 py-0.5 text-xs',
@@ -758,8 +758,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/trending-up.js [app-client] (ecmascript) <export default as TrendingUp>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/building.js [app-client] (ecmascript) <export default as Building>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$eye$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Eye$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/eye.js [app-client] (ecmascript) <export default as Eye>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUp$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-up.js [app-client] (ecmascript) <export default as ArrowUp>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowDown$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-down.js [app-client] (ecmascript) <export default as ArrowDown>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$components$2f$common$2f$Card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/admin/components/common/Card.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$components$2f$common$2f$Badge$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/admin/components/common/Badge.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$components$2f$common$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/admin/components/common/Button.tsx [app-client] (ecmascript)");
@@ -1008,94 +1006,54 @@ const Dashboard = ()=>{
                     const Icon = stat.icon;
                     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$components$2f$common$2f$Card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
                         className: "relative overflow-hidden flex flex-col justify-between h-full min-h-[170px] p-6",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex items-center justify-between mb-4",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-sm text-gray-400 mb-1",
-                                                children: stat.title
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/admin/components/pages/Dashboard.tsx",
-                                                lineNumber: 179,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-3xl font-extrabold text-white leading-tight",
-                                                children: stat.value
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/admin/components/pages/Dashboard.tsx",
-                                                lineNumber: 180,
-                                                columnNumber: 19
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/admin/components/pages/Dashboard.tsx",
-                                        lineNumber: 178,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: `p-3 rounded-full bg-gray-800 ${stat.color}`,
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
-                                            className: "h-7 w-7"
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex items-center justify-between mb-4",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-sm text-gray-400 mb-1",
+                                            children: stat.title
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/admin/components/pages/Dashboard.tsx",
-                                            lineNumber: 183,
+                                            lineNumber: 179,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-3xl font-extrabold text-white leading-tight",
+                                            children: stat.value
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/admin/components/pages/Dashboard.tsx",
+                                            lineNumber: 180,
                                             columnNumber: 19
                                         }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/app/admin/components/pages/Dashboard.tsx",
+                                    lineNumber: 178,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: `p-3 rounded-full bg-gray-800 ${stat.color}`,
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
+                                        className: "h-7 w-7"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/admin/components/pages/Dashboard.tsx",
-                                        lineNumber: 182,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/admin/components/pages/Dashboard.tsx",
-                                lineNumber: 177,
-                                columnNumber: 15
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex items-center mt-2",
-                                children: [
-                                    stat.trend === 'up' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUp$3e$__["ArrowUp"], {
-                                        className: "h-4 w-4 text-green-500 mr-1"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/admin/components/pages/Dashboard.tsx",
-                                        lineNumber: 188,
+                                        lineNumber: 183,
                                         columnNumber: 19
-                                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowDown$3e$__["ArrowDown"], {
-                                        className: "h-4 w-4 text-red-500 mr-1"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/admin/components/pages/Dashboard.tsx",
-                                        lineNumber: 190,
-                                        columnNumber: 19
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: `text-sm ${stat.trend === 'up' ? 'text-green-500' : 'text-red-500'}`,
-                                        children: stat.change
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/admin/components/pages/Dashboard.tsx",
-                                        lineNumber: 192,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-sm text-gray-400 ml-1",
-                                        children: "from last month"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/admin/components/pages/Dashboard.tsx",
-                                        lineNumber: 195,
-                                        columnNumber: 17
                                     }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/admin/components/pages/Dashboard.tsx",
-                                lineNumber: 186,
-                                columnNumber: 15
-                            }, this)
-                        ]
-                    }, index, true, {
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/admin/components/pages/Dashboard.tsx",
+                                    lineNumber: 182,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/app/admin/components/pages/Dashboard.tsx",
+                            lineNumber: 177,
+                            columnNumber: 15
+                        }, this)
+                    }, index, false, {
                         fileName: "[project]/src/app/admin/components/pages/Dashboard.tsx",
                         lineNumber: 176,
                         columnNumber: 13
@@ -1426,10 +1384,11 @@ const Select = ({ label, options, value, onChange, placeholder, required = false
                 onChange: (e)=>onChange(e.target.value),
                 required: required,
                 disabled: disabled,
-                className: `w-full px-3 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all duration-200 ${disabled ? 'opacity-50 cursor-not-allowed' : ''}`,
+                className: `w-full px-3 py-2 bg-black border border-gray-800 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all duration-200 ${disabled ? 'opacity-50 cursor-not-allowed' : ''}`,
                 children: [
                     placeholder && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                         value: "",
+                        className: "text-gray-500",
                         children: placeholder
                     }, void 0, false, {
                         fileName: "[project]/src/app/admin/components/common/Select.tsx",
@@ -1438,6 +1397,7 @@ const Select = ({ label, options, value, onChange, placeholder, required = false
                     }, this),
                     options.map((option, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                             value: option.value,
+                            className: "bg-black text-white",
                             children: option.label
                         }, option.value !== '' ? option.value : `empty-${idx}`, false, {
                             fileName: "[project]/src/app/admin/components/common/Select.tsx",
@@ -1503,7 +1463,7 @@ const Input = ({ label, type = 'text', placeholder, value, onChange, required = 
                 onChange: (e)=>onChange(e.target.value),
                 required: required,
                 disabled: disabled,
-                className: `w-full px-3 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all duration-200 ${disabled ? 'opacity-50 cursor-not-allowed' : ''} ${error ? 'border-red-500' : ''}`
+                className: `w-full px-3 py-2 bg-black border border-gray-800 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all duration-200 ${disabled ? 'opacity-50 cursor-not-allowed' : ''} ${error ? 'border-red-500' : ''}`
             }, void 0, false, {
                 fileName: "[project]/src/app/admin/components/common/Input.tsx",
                 lineNumber: 36,
@@ -2964,7 +2924,7 @@ const PropertyForm = ()=>{
         'Studio'
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "p-8 overflow-hidden sticky top-0 bg-gray-900 min-h-screen",
+        className: "p-8 overflow-hidden sticky top-0 bg-black min-h-screen",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex items-center justify-between mb-8",
@@ -4422,6 +4382,29 @@ const Inquiries = ()=>{
     const handleViewDetails = (id)=>{
         showToast('Opening inquiry details...', 'info');
     };
+    const handleDeleteInquiry = async (id)=>{
+        if (window.confirm('Are you sure you want to delete this inquiry? This action cannot be undone.')) {
+            try {
+                const response = await fetch(`/api/inquiries/${id}`, {
+                    method: 'DELETE',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+                const data = await response.json();
+                if (data.success) {
+                    // Update the local state to remove the deleted inquiry
+                    setInquiries((prevInquiries)=>prevInquiries.filter((inquiry)=>inquiry._id !== id));
+                    showToast('Inquiry deleted successfully', 'success');
+                } else {
+                    throw new Error(data.message || 'Failed to delete inquiry');
+                }
+            } catch (error) {
+                console.error('Error deleting inquiry:', error);
+                showToast(error.message || 'Failed to delete inquiry', 'error');
+            }
+        }
+    };
     const statusOptions = [
         {
             value: '',
@@ -4475,7 +4458,7 @@ const Inquiries = ()=>{
                     children: "New"
                 }, void 0, false, {
                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                    lineNumber: 85,
+                    lineNumber: 111,
                     columnNumber: 16
                 }, this);
             case 'contacted':
@@ -4485,7 +4468,7 @@ const Inquiries = ()=>{
                     children: "Contacted"
                 }, void 0, false, {
                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                    lineNumber: 87,
+                    lineNumber: 113,
                     columnNumber: 16
                 }, this);
             case 'qualified':
@@ -4495,7 +4478,7 @@ const Inquiries = ()=>{
                     children: "Qualified"
                 }, void 0, false, {
                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                    lineNumber: 89,
+                    lineNumber: 115,
                     columnNumber: 16
                 }, this);
             case 'closed':
@@ -4505,7 +4488,7 @@ const Inquiries = ()=>{
                     children: "Closed"
                 }, void 0, false, {
                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                    lineNumber: 91,
+                    lineNumber: 117,
                     columnNumber: 16
                 }, this);
             default:
@@ -4515,7 +4498,7 @@ const Inquiries = ()=>{
                     children: status
                 }, void 0, false, {
                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                    lineNumber: 93,
+                    lineNumber: 119,
                     columnNumber: 16
                 }, this);
         }
@@ -4527,7 +4510,7 @@ const Inquiries = ()=>{
                     className: "h-4 w-4 text-blue-500"
                 }, void 0, false, {
                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                    lineNumber: 100,
+                    lineNumber: 126,
                     columnNumber: 16
                 }, this);
             case 'contacted':
@@ -4535,7 +4518,7 @@ const Inquiries = ()=>{
                     className: "h-4 w-4 text-yellow-500"
                 }, void 0, false, {
                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                    lineNumber: 102,
+                    lineNumber: 128,
                     columnNumber: 16
                 }, this);
             case 'qualified':
@@ -4543,7 +4526,7 @@ const Inquiries = ()=>{
                     className: "h-4 w-4 text-green-500"
                 }, void 0, false, {
                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                    lineNumber: 104,
+                    lineNumber: 130,
                     columnNumber: 16
                 }, this);
             case 'closed':
@@ -4551,7 +4534,7 @@ const Inquiries = ()=>{
                     className: "h-4 w-4 text-red-500"
                 }, void 0, false, {
                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                    lineNumber: 106,
+                    lineNumber: 132,
                     columnNumber: 16
                 }, this);
             default:
@@ -4559,7 +4542,7 @@ const Inquiries = ()=>{
                     className: "h-4 w-4 text-gray-500"
                 }, void 0, false, {
                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                    lineNumber: 108,
+                    lineNumber: 134,
                     columnNumber: 16
                 }, this);
         }
@@ -4578,29 +4561,29 @@ const Inquiries = ()=>{
             title: 'Total Inquiries',
             value: inquiries.length.toString(),
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"],
-            color: 'text-blue-500',
-            bg: 'bg-gradient-to-tr from-blue-900/60 to-blue-800/30'
+            color: 'text-blue-400',
+            bg: 'bg-black/30'
         },
         {
             title: 'New Inquiries',
             value: inquiries.filter((i)=>i.status === 'new').length.toString(),
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$alert$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__AlertCircle$3e$__["AlertCircle"],
-            color: 'text-yellow-500',
-            bg: 'bg-gradient-to-tr from-yellow-900/60 to-yellow-800/30'
+            color: 'text-yellow-400',
+            bg: 'bg-black/30'
         },
         {
             title: 'Qualified Leads',
             value: inquiries.filter((i)=>i.status === 'qualified').length.toString(),
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2d$big$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle$3e$__["CheckCircle"],
-            color: 'text-green-500',
-            bg: 'bg-gradient-to-tr from-green-900/60 to-green-800/30'
+            color: 'text-green-400',
+            bg: 'bg-black/30'
         },
         {
             title: 'Closed Inquiries',
             value: inquiries.filter((i)=>i.status === 'closed').length.toString(),
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__["Clock"],
             color: 'text-gray-400',
-            bg: 'bg-gradient-to-tr from-gray-900/60 to-gray-800/30'
+            bg: 'bg-black/30'
         }
     ];
     const getPropertyName = (propertyId)=>{
@@ -4609,7 +4592,7 @@ const Inquiries = ()=>{
         return property ? property.name : null;
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "p-8 min-h-screen bg-gray-900",
+        className: "p-8 min-h-screen bg-black",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "mb-8",
@@ -4619,7 +4602,7 @@ const Inquiries = ()=>{
                         children: "Inquiries"
                     }, void 0, false, {
                         fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                        lineNumber: 162,
+                        lineNumber: 188,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4627,13 +4610,13 @@ const Inquiries = ()=>{
                         children: "Manage customer inquiries and leads"
                     }, void 0, false, {
                         fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                        lineNumber: 163,
+                        lineNumber: 189,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                lineNumber: 161,
+                lineNumber: 187,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4652,7 +4635,7 @@ const Inquiries = ()=>{
                                             children: stat.title
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                            lineNumber: 174,
+                                            lineNumber: 200,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4660,44 +4643,44 @@ const Inquiries = ()=>{
                                             children: stat.value
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                            lineNumber: 175,
+                                            lineNumber: 201,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                    lineNumber: 173,
+                                    lineNumber: 199,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: `p-3 rounded-full bg-gray-800 ${stat.color} shadow-lg`,
+                                    className: `p-3 rounded-full bg-black/30 ${stat.color} shadow-lg`,
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
                                         className: "h-6 w-6"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                        lineNumber: 178,
+                                        lineNumber: 204,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                    lineNumber: 177,
+                                    lineNumber: 203,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                            lineNumber: 172,
+                            lineNumber: 198,
                             columnNumber: 15
                         }, this)
                     }, index, false, {
                         fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                        lineNumber: 171,
+                        lineNumber: 197,
                         columnNumber: 13
                     }, this);
                 })
             }, void 0, false, {
                 fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                lineNumber: 167,
+                lineNumber: 193,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$components$2f$common$2f$Card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -4714,7 +4697,7 @@ const Inquiries = ()=>{
                                         className: "absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                        lineNumber: 191,
+                                        lineNumber: 217,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -4722,16 +4705,16 @@ const Inquiries = ()=>{
                                         placeholder: "Search inquiries...",
                                         value: searchTerm,
                                         onChange: (e)=>setSearchTerm(e.target.value),
-                                        className: "w-full pl-10 pr-4 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
+                                        className: "w-full pl-10 pr-4 py-2 bg-black border border-gray-800 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                        lineNumber: 192,
+                                        lineNumber: 218,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                lineNumber: 190,
+                                lineNumber: 216,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$components$2f$common$2f$Select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Select"], {
@@ -4741,23 +4724,23 @@ const Inquiries = ()=>{
                                 placeholder: "Filter by status"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                lineNumber: 200,
+                                lineNumber: 226,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                        lineNumber: 189,
+                        lineNumber: 215,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                    lineNumber: 188,
+                    lineNumber: 214,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                lineNumber: 187,
+                lineNumber: 213,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$components$2f$common$2f$Card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -4775,7 +4758,7 @@ const Inquiries = ()=>{
                                             children: "Contact"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                            lineNumber: 216,
+                                            lineNumber: 242,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -4783,7 +4766,7 @@ const Inquiries = ()=>{
                                             children: "Property Type"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                            lineNumber: 217,
+                                            lineNumber: 243,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -4791,7 +4774,7 @@ const Inquiries = ()=>{
                                             children: "Property Name"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                            lineNumber: 218,
+                                            lineNumber: 244,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -4799,7 +4782,7 @@ const Inquiries = ()=>{
                                             children: "Date"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                            lineNumber: 219,
+                                            lineNumber: 245,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -4807,18 +4790,18 @@ const Inquiries = ()=>{
                                             children: "Actions"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                            lineNumber: 220,
+                                            lineNumber: 246,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                    lineNumber: 215,
+                                    lineNumber: 241,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                lineNumber: 214,
+                                lineNumber: 240,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -4837,7 +4820,7 @@ const Inquiries = ()=>{
                                                                     className: "h-4 w-4 text-gray-400"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                                                    lineNumber: 229,
+                                                                    lineNumber: 255,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4845,13 +4828,13 @@ const Inquiries = ()=>{
                                                                     children: inquiry.fullName
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                                                    lineNumber: 230,
+                                                                    lineNumber: 256,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                                            lineNumber: 228,
+                                                            lineNumber: 254,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4861,7 +4844,7 @@ const Inquiries = ()=>{
                                                                     className: "h-4 w-4 text-gray-400"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                                                    lineNumber: 233,
+                                                                    lineNumber: 259,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4869,13 +4852,13 @@ const Inquiries = ()=>{
                                                                     children: inquiry.email
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                                                    lineNumber: 234,
+                                                                    lineNumber: 260,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                                            lineNumber: 232,
+                                                            lineNumber: 258,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4885,7 +4868,7 @@ const Inquiries = ()=>{
                                                                     className: "h-4 w-4 text-gray-400"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                                                    lineNumber: 237,
+                                                                    lineNumber: 263,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4893,24 +4876,24 @@ const Inquiries = ()=>{
                                                                     children: inquiry.phone
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                                                    lineNumber: 238,
+                                                                    lineNumber: 264,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                                            lineNumber: 236,
+                                                            lineNumber: 262,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                                    lineNumber: 227,
+                                                    lineNumber: 253,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                                lineNumber: 226,
+                                                lineNumber: 252,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -4920,12 +4903,12 @@ const Inquiries = ()=>{
                                                     children: inquiry.propertyType || '-'
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                                    lineNumber: 243,
+                                                    lineNumber: 269,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                                lineNumber: 242,
+                                                lineNumber: 268,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -4935,19 +4918,19 @@ const Inquiries = ()=>{
                                                     children: getPropertyName(inquiry.propertyId)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                                    lineNumber: 247,
+                                                    lineNumber: 273,
                                                     columnNumber: 23
                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "text-gray-400",
                                                     children: "General Inquiry"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                                    lineNumber: 249,
+                                                    lineNumber: 275,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                                lineNumber: 245,
+                                                lineNumber: 271,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -4955,7 +4938,7 @@ const Inquiries = ()=>{
                                                 children: formatDate(inquiry.createdAt)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                                lineNumber: 252,
+                                                lineNumber: 278,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -4985,44 +4968,44 @@ const Inquiries = ()=>{
                                                         onChange: (value)=>handleStatusUpdate(inquiry._id, value)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                                        lineNumber: 257,
+                                                        lineNumber: 283,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                                    lineNumber: 256,
+                                                    lineNumber: 282,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                                lineNumber: 255,
+                                                lineNumber: 281,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, inquiry._id || inquiry.id, true, {
                                         fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                        lineNumber: 225,
+                                        lineNumber: 251,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                                lineNumber: 223,
+                                lineNumber: 249,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                        lineNumber: 213,
+                        lineNumber: 239,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                    lineNumber: 212,
+                    lineNumber: 238,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                lineNumber: 211,
+                lineNumber: 237,
                 columnNumber: 7
             }, this),
             filteredInquiries.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$components$2f$common$2f$Card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -5032,7 +5015,7 @@ const Inquiries = ()=>{
                         className: "h-16 w-16 text-gray-600 mx-auto mb-4"
                     }, void 0, false, {
                         fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                        lineNumber: 278,
+                        lineNumber: 304,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -5040,7 +5023,7 @@ const Inquiries = ()=>{
                         children: "No inquiries found"
                     }, void 0, false, {
                         fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                        lineNumber: 279,
+                        lineNumber: 305,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5048,19 +5031,19 @@ const Inquiries = ()=>{
                         children: "Try adjusting your search or filter criteria"
                     }, void 0, false, {
                         fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                        lineNumber: 280,
+                        lineNumber: 306,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-                lineNumber: 277,
+                lineNumber: 303,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/admin/components/pages/Inquiries.tsx",
-        lineNumber: 160,
+        lineNumber: 186,
         columnNumber: 5
     }, this);
 };
@@ -6893,7 +6876,7 @@ const AppContent = ()=>{
     // Show login page if not authenticated
     if (!isAuthenticated) {
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "h-screen bg-gray-900",
+            className: "h-screen bg-black",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$components$2f$pages$2f$Login$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Login"], {
                     onLogin: login
@@ -6919,7 +6902,7 @@ const AppContent = ()=>{
         }, this);
     }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "h-screen bg-gray-900 flex overflow-hidden",
+        className: "h-screen bg-black flex overflow-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$admin$2f$components$2f$layout$2f$Sidebar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Sidebar"], {
                 isOpen: sidebarOpen,

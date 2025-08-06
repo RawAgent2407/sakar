@@ -390,7 +390,7 @@ export const PropertyForm: React.FC = () => {
   const unitTypes = ['BHK', 'RK', 'Studio'];
 
   return (
-    <div className="p-8 overflow-hidden sticky top-0 bg-gray-900 min-h-screen">
+    <div className="p-8 overflow-hidden sticky top-0 bg-black min-h-screen">
       <div className="flex items-center justify-between mb-8">
         <div className="flex items-center space-x-4">
           <Button

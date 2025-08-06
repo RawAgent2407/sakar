@@ -83,9 +83,10 @@ export const footerData: FooterData = {
     },
   ] as ContactInfo[],
   
-  copyright: '© 2025 the real estate universe. All rights reserved.',
+  copyright: ' 2025 the real estate universe. All rights reserved.',
   legalLinks: [
-    { label: 'Privacy Policy', href: '#' },
-    { label: 'Terms of Service', href: '#' },
+    // { label: 'Privacy Policy', href: '#' },
+    // { label: 'Terms of Service', href: '#' },
+    { label: 'Powered by Xaneur Innovations.', href: 'https://xaneur.com' },
   ] as LinkItem[],
 };

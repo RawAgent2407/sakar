@@ -133,15 +133,13 @@ const footerData = {
             type: 'hours'
         }
     ],
-    copyright: '© 2025 the real estate universe. All rights reserved.',
+    copyright: ' 2025 the real estate universe. All rights reserved.',
     legalLinks: [
+        // { label: 'Privacy Policy', href: '#' },
+        // { label: 'Terms of Service', href: '#' },
         {
-            label: 'Privacy Policy',
-            href: '#'
-        },
-        {
-            label: 'Terms of Service',
-            href: '#'
+            label: 'Powered by Xaneur Innovations.',
+            href: 'https://xaneur.com'
         }
     ]
 };
@@ -277,7 +275,7 @@ const getIconComponent = (icon, className = 'w-5 h-5 text-[#F7F7F7]')=>{
  */ const Footer = ()=>{
     const { logo, description, socialLinks, quickLinks, contactInfo, copyright, legalLinks } = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$footer$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["footerData"];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        className: "flex flex-col items-center py-16 md:py-24 bg-[#0A0A0A] w-full",
+        className: "flex flex-col items-center pt-16 pb-5 md:pt-24 md:pb-6 bg-[#0A0A0A] w-full",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex flex-col w-full max-w-[1280px] gap-12 px-4 sm:px-6 lg:px-8",
             children: [
@@ -467,6 +465,7 @@ const getIconComponent = (icon, className = 'w-5 h-5 text-[#F7F7F7]')=>{
                                 children: legalLinks.map((link, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: link.href,
                                         className: "font-['Bricolage_Grotesque'] font-extralight text-sm leading-6 text-[#9CA3AF] hover:underline",
+                                        target: "_blank",
                                         children: link.label
                                     }, index, false, {
                                         fileName: "[project]/src/components/common/Footer.tsx",
@@ -660,14 +659,6 @@ __turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$s
 
 var { g: global, __dirname } = __turbopack_context__;
 {
-// import React from 'react';
-// import Image from 'next/image';
-// import { GalleryItem } from '@/app/admin/types';
-// interface FeaturedDevelopmentProps {
-//   text: string;
-//   images: GalleryItem[];
-// }
-// const FeaturedDevelopment: React.FC<FeaturedDevelopmentProps> = ({ text, images }) => {
 //   return (
 //     <section className="w-full bg-black px-4 sm:px-8 md:px-16 py-10 md:py-20">
 //       <div className="mx-auto flex flex-col gap-6">
@@ -723,7 +714,7 @@ const FeaturedDevelopment = ({ text, images })=>{
                             children: "Featured Development"
                         }, void 0, false, {
                             fileName: "[project]/src/sections/projects/FeaturedDevelopment.tsx",
-                            lineNumber: 63,
+                            lineNumber: 54,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -731,13 +722,13 @@ const FeaturedDevelopment = ({ text, images })=>{
                             children: text || 'No description provided.'
                         }, void 0, false, {
                             fileName: "[project]/src/sections/projects/FeaturedDevelopment.tsx",
-                            lineNumber: 66,
+                            lineNumber: 57,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/sections/projects/FeaturedDevelopment.tsx",
-                    lineNumber: 62,
+                    lineNumber: 53,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -754,12 +745,12 @@ const FeaturedDevelopment = ({ text, images })=>{
                                 className: "object-cover"
                             }, void 0, false, {
                                 fileName: "[project]/src/sections/projects/FeaturedDevelopment.tsx",
-                                lineNumber: 84,
+                                lineNumber: 75,
                                 columnNumber: 19
                             }, this)
                         }, idx, false, {
                             fileName: "[project]/src/sections/projects/FeaturedDevelopment.tsx",
-                            lineNumber: 80,
+                            lineNumber: 71,
                             columnNumber: 17
                         }, this);
                     }) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -767,23 +758,23 @@ const FeaturedDevelopment = ({ text, images })=>{
                         children: "No images provided."
                     }, void 0, false, {
                         fileName: "[project]/src/sections/projects/FeaturedDevelopment.tsx",
-                        lineNumber: 94,
+                        lineNumber: 85,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/sections/projects/FeaturedDevelopment.tsx",
-                    lineNumber: 72,
+                    lineNumber: 63,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/sections/projects/FeaturedDevelopment.tsx",
-            lineNumber: 60,
+            lineNumber: 51,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/sections/projects/FeaturedDevelopment.tsx",
-        lineNumber: 59,
+        lineNumber: 50,
         columnNumber: 5
     }, this);
 };

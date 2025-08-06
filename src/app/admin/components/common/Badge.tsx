@@ -10,10 +10,10 @@ export const Badge: React.FC<BadgeProps> = ({ variant, children, size = 'md' }) 
   const baseClasses = 'inline-flex items-center font-medium rounded-full';
   
   const variantClasses = {
-    success: 'bg-green-900 text-green-300',
-    warning: 'bg-yellow-900 text-yellow-300',
-    error: 'bg-red-900 text-red-300',
-    info: 'bg-blue-900 text-blue-300',
+    success: 'bg-green-950 text-green-200 border border-green-800',
+    warning: 'bg-yellow-950 text-yellow-200 border border-yellow-800',
+    error: 'bg-red-950 text-red-200 border border-red-800',
+    info: 'bg-blue-950 text-blue-200 border border-blue-800',
   };
   
   const sizeClasses = {

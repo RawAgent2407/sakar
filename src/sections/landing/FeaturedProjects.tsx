@@ -147,47 +147,51 @@ const FeaturedProjects = ({ onShowAll }: { onShowAll?: (show: boolean) => void }
   const totalPages = showAll ? Math.ceil(all.length / pageSize) : 1;
 
   return (
-    <section className="w-full bg-[#1A1A1A] py-12 sm:py-16">
-      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center mb-6 sm:mb-8">
-          <h2 className="text-2xl sm:text-3xl font-medium text-white font-['Bricolage_Grotesque'] tracking-wide">
-            Featured Projects
-          </h2>
-          <button 
-            className="flex items-center text-white text-sm font-['Bricolage_Grotesque'] hover:opacity-80 transition-opacity underline"
-            onClick={() => { setShowAll(!showAll); setPage(1); }}
-          >
-            {showAll ? 'Show Featured' : 'See All'}
-          </button>
+    <section className="w-full bg-[#1A1A1A] py-8 sm:py-12">
+      <div className="w-full px-4 sm:px-6 lg:px-8">
+        <div className="w-full">
+          <div className="flex justify-between items-center mb-6 sm:mb-8">
+            <h2 className="text-2xl sm:text-3xl font-medium text-white font-['Bricolage_Grotesque'] tracking-wide">
+              Featured Projects
+            </h2>
+            <button 
+              className="flex items-center text-white text-sm font-['Bricolage_Grotesque'] hover:opacity-80 transition-opacity underline"
+              onClick={() => { setShowAll(!showAll); setPage(1); }}
+            >
+              {showAll ? 'Show Featured' : 'See All'}
+            </button>
+          </div>
         </div>
-        <div className="relative -mx-4 sm:-mx-6 lg:-mx-8">
+        <div className="relative w-full">
           {showAll ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-8 pb-6 px-4 sm:px-6 lg:px-8">
+            <div className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-6">
               {loading ? (
                 <div className="text-gray-400">Loading...</div>
               ) : paginated.length === 0 ? (
                 <div className="text-gray-400">No properties found.</div>
               ) : (
                 paginated.map((property) => (
-                  <ProjectCard key={property._id} property={property} cardClassName="w-[300px] sm:w-[390px] lg:w-[370px]" />
+                  <ProjectCard key={property._id} property={property} cardClassName="w-full" />
                 ))
               )}
             </div>
           ) : (
-            <div className="flex space-x-4 sm:space-x-6 overflow-x-auto pb-6 px-4 sm:px-6 lg:px-8" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
-              {loading ? (
-                <div className="text-gray-400">Loading...</div>
-              ) : paginated.length === 0 ? (
-                <div className="text-gray-400">No properties found.</div>
-              ) : (
-                paginated.map((property) => (
-                  <ProjectCard key={property._id} property={property} />
-                ))
-              )}
+            <div className="w-full overflow-x-auto pb-6" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+              <div className="flex space-x-4 sm:space-x-6 w-max pl-0 sm:pl-0 lg:pl-0 pr-4 sm:pr-6 lg:pr-8">
+                {loading ? (
+                  <div className="text-gray-400">Loading...</div>
+                ) : paginated.length === 0 ? (
+                  <div className="text-gray-400">No properties found.</div>
+                ) : (
+                  paginated.map((property) => (
+                    <ProjectCard key={property._id} property={property} />
+                  ))
+                )}
+              </div>
             </div>
           )}
           {showAll && totalPages > 1 && (
-            <div className="flex justify-center mt-8">
+            <div className="max-w-screen-xl mx-auto flex justify-center mt-8">
               <button
                 className={`mx-1 px-3 py-1 rounded bg-gray-800 text-gray-300 border border-gray-700 ${page === 1 ? 'opacity-20 cursor-not-allowed' : 'hover:bg-gray-700'}`}
                 onClick={() => page > 1 && setPage(page - 1)}
@@ -198,7 +202,7 @@ const FeaturedProjects = ({ onShowAll }: { onShowAll?: (show: boolean) => void }
               {[...Array(totalPages)].map((_, i) => (
                 <button
                   key={i}
-                  className={`mx-1 px-3 py-1 rounded border border-gray-700 ${page === i + 1 ? 'bg-red-600 text-white' : 'bg-gray-800 text-gray-300 hover:bg-gray-700'}`}
+                  className={`mx-1 px-3 py-1 rounded border ${page === i + 1 ? 'bg-red-600 text-white border-red-600' : 'bg-gray-800 text-gray-300 border-gray-700 hover:bg-gray-700'}`}
                   onClick={() => setPage(i + 1)}
                 >
                   {i + 1}
@@ -213,12 +217,14 @@ const FeaturedProjects = ({ onShowAll }: { onShowAll?: (show: boolean) => void }
               </button>
             </div>
           )}
-          <div 
-            className="absolute right-0 top-0 bottom-0 w-16 sm:w-24 lg:w-32 pointer-events-none"
-            style={{
-              background: 'linear-gradient(to left, #1A1A1A, rgba(26, 26, 26, 0))',
-            }}
-          />
+          {!showAll && (
+            <div 
+              className="absolute right-0 top-0 bottom-0 w-16 sm:w-24 lg:w-32 pointer-events-none"
+              style={{
+                background: 'linear-gradient(to left, #1A1A1A, rgba(26, 26, 26, 0))',
+              }}
+            />
+          )}
         </div>
       </div>
       <style jsx global>{`

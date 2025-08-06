@@ -1,7 +1,1 @@
-{
-  "/api/articles/route": "app/api/articles/route.js",
-  "/api/groups/route": "app/api/groups/route.js",
-  "/api/properties/route": "app/api/properties/route.js",
-  "/api/property-categories/route": "app/api/property-categories/route.js",
-  "/page": "app/page.js"
-}
+{}

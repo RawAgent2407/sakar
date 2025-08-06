@@ -11,7 +11,7 @@ export const Header: React.FC<HeaderProps> = ({ onMenuToggle }) => {
   const { user, logout, setCurrentPage } = useApp();
 
   return (
-    <header className="h-16 bg-gray-900 border-b border-gray-800 px-6 flex items-center justify-between">
+    <header className="h-16 bg-black border-b border-gray-800 px-6 flex items-center justify-between">
       <div className="flex items-center space-x-4">
         <Button
           variant="ghost"

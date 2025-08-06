@@ -23,9 +23,9 @@ export const Toast: React.FC<ToastProps> = ({ message, type, onClose }) => {
   };
 
   const colors = {
-    success: 'bg-green-900 border-green-700 text-green-200',
-    error: 'bg-red-900 border-red-700 text-red-200',
-    info: 'bg-blue-900 border-blue-700 text-blue-200',
+    success: 'bg-green-950 border-green-800 text-green-200',
+    error: 'bg-red-950 border-red-800 text-red-200',
+    info: 'bg-blue-950 border-blue-800 text-blue-200',
   };
 
   const Icon = icons[type];

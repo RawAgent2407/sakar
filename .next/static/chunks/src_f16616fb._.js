@@ -317,15 +317,13 @@ const footerData = {
             type: 'hours'
         }
     ],
-    copyright: '© 2025 the real estate universe. All rights reserved.',
+    copyright: ' 2025 the real estate universe. All rights reserved.',
     legalLinks: [
+        // { label: 'Privacy Policy', href: '#' },
+        // { label: 'Terms of Service', href: '#' },
         {
-            label: 'Privacy Policy',
-            href: '#'
-        },
-        {
-            label: 'Terms of Service',
-            href: '#'
+            label: 'Powered by Xaneur Innovations.',
+            href: 'https://xaneur.com'
         }
     ]
 };
@@ -464,7 +462,7 @@ const getIconComponent = (icon, className = 'w-5 h-5 text-[#F7F7F7]')=>{
  */ const Footer = ()=>{
     const { logo, description, socialLinks, quickLinks, contactInfo, copyright, legalLinks } = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$footer$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["footerData"];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        className: "flex flex-col items-center py-16 md:py-24 bg-[#0A0A0A] w-full",
+        className: "flex flex-col items-center pt-16 pb-5 md:pt-24 md:pb-6 bg-[#0A0A0A] w-full",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex flex-col w-full max-w-[1280px] gap-12 px-4 sm:px-6 lg:px-8",
             children: [
@@ -654,6 +652,7 @@ const getIconComponent = (icon, className = 'w-5 h-5 text-[#F7F7F7]')=>{
                                 children: legalLinks.map((link, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: link.href,
                                         className: "font-['Bricolage_Grotesque'] font-extralight text-sm leading-6 text-[#9CA3AF] hover:underline",
+                                        target: "_blank",
                                         children: link.label
                                     }, index, false, {
                                         fileName: "[project]/src/components/common/Footer.tsx",
@@ -731,6 +730,10 @@ const navigationData = {
         {
             label: 'Articles',
             href: '/articles'
+        },
+        {
+            label: 'About Us',
+            href: '/about-us'
         },
         {
             label: 'Contact Us',
@@ -873,7 +876,7 @@ var _s = __turbopack_context__.k.signature();
     /**
    * Determines the background class based on scroll position
    * @type {string}
-   */ const navBackgroundClass = isScrolled ? 'bg-black/80 backdrop-blur-md shadow-lg' : 'bg-transparent';
+   */ const navBackgroundClass = isScrolled ? 'bg-gradient-to-r from-black/70 to-black/50 backdrop-blur-xl border-b border-white/10 shadow-2xl shadow-black/30' : 'bg-gradient-to-r from-black/40 to-black/20 backdrop-blur-md border-b border-white/5';
     const mobileMenuBackgroundClass = isMenuOpen ? 'bg-black shadow-lg' : navBackgroundClass;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
         className: `fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isMenuOpen ? mobileMenuBackgroundClass : navBackgroundClass}`,
@@ -989,6 +992,21 @@ var _s = __turbopack_context__.k.signature();
                                     fileName: "[project]/src/components/common/Navigation.tsx",
                                     lineNumber: 157,
                                     columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        href: "/about-us",
+                                        className: "text-white text-base font-medium leading-6 hover:opacity-80 transition-opacity whitespace-nowrap",
+                                        children: "About Us"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/common/Navigation.tsx",
+                                        lineNumber: 161,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/common/Navigation.tsx",
+                                    lineNumber: 160,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
@@ -1017,14 +1035,14 @@ var _s = __turbopack_context__.k.signature();
                                         onBlur: ()=>setTimeout(()=>setShowDropdown(false), 150)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/common/Navigation.tsx",
-                                        lineNumber: 167,
+                                        lineNumber: 170,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaSearch"], {
                                         className: "absolute left-4 top-1/2 transform -translate-y-1/2 text-[#ECECEC] w-4 h-4"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/common/Navigation.tsx",
-                                        lineNumber: 176,
+                                        lineNumber: 179,
                                         columnNumber: 13
                                     }, this),
                                     showDropdown && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1043,7 +1061,7 @@ var _s = __turbopack_context__.k.signature();
                                                             children: p.name
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/common/Navigation.tsx",
-                                                            lineNumber: 189,
+                                                            lineNumber: 192,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1055,13 +1073,13 @@ var _s = __turbopack_context__.k.signature();
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/common/Navigation.tsx",
-                                                            lineNumber: 190,
+                                                            lineNumber: 193,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, p._id, true, {
                                                     fileName: "[project]/src/components/common/Navigation.tsx",
-                                                    lineNumber: 180,
+                                                    lineNumber: 183,
                                                     columnNumber: 19
                                                 }, this)),
                                             filtered.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1069,19 +1087,19 @@ var _s = __turbopack_context__.k.signature();
                                                 children: "No results found."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/common/Navigation.tsx",
-                                                lineNumber: 194,
+                                                lineNumber: 197,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/common/Navigation.tsx",
-                                        lineNumber: 178,
+                                        lineNumber: 181,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/common/Navigation.tsx",
-                                lineNumber: 166,
+                                lineNumber: 169,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1101,23 +1119,23 @@ var _s = __turbopack_context__.k.signature();
                                         d: isMenuOpen ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16m-7 6h7'
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/common/Navigation.tsx",
-                                        lineNumber: 207,
+                                        lineNumber: 210,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/common/Navigation.tsx",
-                                    lineNumber: 206,
+                                    lineNumber: 209,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/common/Navigation.tsx",
-                                lineNumber: 201,
+                                lineNumber: 204,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/common/Navigation.tsx",
-                        lineNumber: 164,
+                        lineNumber: 167,
                         columnNumber: 9
                     }, this)
                 ]
@@ -1141,7 +1159,7 @@ var _s = __turbopack_context__.k.signature();
                                         children: "Properties"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/common/Navigation.tsx",
-                                        lineNumber: 218,
+                                        lineNumber: 221,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1155,23 +1173,23 @@ var _s = __turbopack_context__.k.signature();
                                                     children: cat.name
                                                 }, cat.name, false, {
                                                     fileName: "[project]/src/components/common/Navigation.tsx",
-                                                    lineNumber: 228,
+                                                    lineNumber: 231,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/common/Navigation.tsx",
-                                            lineNumber: 226,
+                                            lineNumber: 229,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/common/Navigation.tsx",
-                                        lineNumber: 225,
+                                        lineNumber: 228,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/common/Navigation.tsx",
-                                lineNumber: 217,
+                                lineNumber: 220,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1182,12 +1200,12 @@ var _s = __turbopack_context__.k.signature();
                                     children: "Articles"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/common/Navigation.tsx",
-                                    lineNumber: 241,
+                                    lineNumber: 244,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/common/Navigation.tsx",
-                                lineNumber: 240,
+                                lineNumber: 243,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1198,18 +1216,18 @@ var _s = __turbopack_context__.k.signature();
                                     children: "Contact Us"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/common/Navigation.tsx",
-                                    lineNumber: 244,
+                                    lineNumber: 247,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/common/Navigation.tsx",
-                                lineNumber: 243,
+                                lineNumber: 246,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/common/Navigation.tsx",
-                        lineNumber: 216,
+                        lineNumber: 219,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1223,31 +1241,31 @@ var _s = __turbopack_context__.k.signature();
                                     className: "w-full h-12 pl-12 pr-4 py-2 bg-[#333333] text-[#ECECEC] rounded-full font-['Bricolage_Grotesque'] text-base leading-6 placeholder-[#ECECEC] focus:outline-none focus:ring-2 focus:ring-gray-500"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/common/Navigation.tsx",
-                                    lineNumber: 250,
+                                    lineNumber: 253,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaSearch"], {
                                     className: "absolute left-5 top-1/2 transform -translate-y-1/2 text-[#ECECEC] w-5 h-5"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/common/Navigation.tsx",
-                                    lineNumber: 255,
+                                    lineNumber: 258,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/common/Navigation.tsx",
-                            lineNumber: 249,
+                            lineNumber: 252,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/common/Navigation.tsx",
-                        lineNumber: 248,
+                        lineNumber: 251,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/common/Navigation.tsx",
-                lineNumber: 215,
+                lineNumber: 218,
                 columnNumber: 9
             }, this)
         ]

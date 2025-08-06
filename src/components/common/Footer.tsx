@@ -70,7 +70,7 @@ const Footer = () => {
   const { logo, description, socialLinks, quickLinks, contactInfo, copyright, legalLinks } = footerData;
 
   return (
-    <footer className="flex flex-col items-center py-16 md:py-24 bg-[#0A0A0A] w-full">
+    <footer className="flex flex-col items-center pt-16 pb-5 md:pt-24 md:pb-6 bg-[#0A0A0A] w-full">
       <div className="flex flex-col w-full max-w-[1280px] gap-12 px-4 sm:px-6 lg:px-8">
         {/* Top Section */}
         <div className="flex flex-col lg:flex-row justify-between items-start w-full gap-10 lg:gap-8">
@@ -171,8 +171,8 @@ const Footer = () => {
             </p>
             <div className="flex gap-x-4 sm:gap-x-6">
               {legalLinks.map((link, index) => (
-                <a key={index} href={link.href} className="font-['Bricolage_Grotesque'] font-extralight text-sm leading-6 text-[#9CA3AF] hover:underline">
-                  {link.label}
+                <a key={index} href={link.href} className="font-['Bricolage_Grotesque'] font-extralight text-sm leading-6 text-[#9CA3AF] hover:underline" target="_blank">
+                  {link.label} 
                 </a>
               ))}
             </div>

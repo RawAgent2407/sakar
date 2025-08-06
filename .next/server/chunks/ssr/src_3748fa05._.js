@@ -154,7 +154,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navi
     /**
    * Determines the background class based on scroll position
    * @type {string}
-   */ const navBackgroundClass = isScrolled ? 'bg-black/30 backdrop-blur-xl border border-white/20 shadow-2xl' : 'bg-transparent';
+   */ const navBackgroundClass = isScrolled ? 'bg-gradient-to-r from-black/70 to-black/50 backdrop-blur-xl border-b border-white/10 shadow-2xl shadow-black/30' : 'bg-gradient-to-r from-black/40 to-black/20 backdrop-blur-md border-b border-white/5';
     const mobileMenuBackgroundClass = isMenuOpen ? 'bg-black shadow-lg' : navBackgroundClass;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
         className: `fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isMenuOpen ? mobileMenuBackgroundClass : navBackgroundClass}`,
@@ -639,15 +639,13 @@ const footerData = {
             type: 'hours'
         }
     ],
-    copyright: '© 2025 the real estate universe. All rights reserved.',
+    copyright: ' 2025 the real estate universe. All rights reserved.',
     legalLinks: [
+        // { label: 'Privacy Policy', href: '#' },
+        // { label: 'Terms of Service', href: '#' },
         {
-            label: 'Privacy Policy',
-            href: '#'
-        },
-        {
-            label: 'Terms of Service',
-            href: '#'
+            label: 'Powered by Xaneur Innovations.',
+            href: 'https://xaneur.com'
         }
     ]
 };
@@ -783,7 +781,7 @@ const getIconComponent = (icon, className = 'w-5 h-5 text-[#F7F7F7]')=>{
  */ const Footer = ()=>{
     const { logo, description, socialLinks, quickLinks, contactInfo, copyright, legalLinks } = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$footer$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["footerData"];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        className: "flex flex-col items-center py-16 md:py-24 bg-[#0A0A0A] w-full",
+        className: "flex flex-col items-center pt-16 pb-5 md:pt-24 md:pb-6 bg-[#0A0A0A] w-full",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex flex-col w-full max-w-[1280px] gap-12 px-4 sm:px-6 lg:px-8",
             children: [
@@ -973,6 +971,7 @@ const getIconComponent = (icon, className = 'w-5 h-5 text-[#F7F7F7]')=>{
                                 children: legalLinks.map((link, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: link.href,
                                         className: "font-['Bricolage_Grotesque'] font-extralight text-sm leading-6 text-[#9CA3AF] hover:underline",
+                                        target: "_blank",
                                         children: link.label
                                     }, index, false, {
                                         fileName: "[project]/src/components/common/Footer.tsx",

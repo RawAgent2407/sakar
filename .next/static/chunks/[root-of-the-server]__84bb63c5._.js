@@ -509,7 +509,7 @@ const Hero = ({ onSearch, searchActive, matched: matchedProp })=>{
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "relative z-10 flex flex-col justify-center md:justify-between h-full px-4 sm:px-6 lg:px-8 pt-50 md:pt-32 pb-12 md:pb-16",
+                        className: "relative z-10 flex flex-col justify-center md:justify-between h-full px-4 sm:px-6 lg:px-8 pt-40 md:pt-48 pb-12 md:pb-16",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-black/40 md:bg-transparent z-[-1] rounded-none"
@@ -519,103 +519,110 @@ const Hero = ({ onSearch, searchActive, matched: matchedProp })=>{
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex flex-col gap-4 text-left md:text-left w-full max-w-md md:max-w-4xl mx-0",
-                                children: [
-                                    (heroContent.tagline || badge) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex items-center justify-start w-fit bg-[#E50914] rounded-full px-4 py-1 mx-0",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "text-white text-xs font-semibold leading-5",
-                                            children: heroContent.tagline || badge
+                                className: "w-full max-w-screen-lg mx-auto",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex flex-col gap-4 text-left w-full max-w-md md:max-w-2xl ml-0",
+                                    children: [
+                                        (heroContent.tagline || badge) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "flex items-center justify-start w-fit bg-[#E50914] rounded-full px-4 py-1",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "text-white text-xs font-semibold leading-5",
+                                                children: heroContent.tagline || badge
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/sections/landing/Hero.tsx",
+                                                lineNumber: 200,
+                                                columnNumber: 19
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/sections/landing/Hero.tsx",
-                                            lineNumber: 198,
+                                            lineNumber: 199,
                                             columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                            className: "text-white text-4xl sm:text-5xl lg:text-[60px] font-semibold leading-tight sm:leading-[1.1] font-['General_Sans'] w-full",
+                                            children: title.split('\n').map((line, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].Fragment, {
+                                                    children: [
+                                                        line,
+                                                        i < title.split('\n').length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                            fileName: "[project]/src/sections/landing/Hero.tsx",
+                                                            lineNumber: 211,
+                                                            columnNumber: 58
+                                                        }, this)
+                                                    ]
+                                                }, i, true, {
+                                                    fileName: "[project]/src/sections/landing/Hero.tsx",
+                                                    lineNumber: 209,
+                                                    columnNumber: 19
+                                                }, this))
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/sections/landing/Hero.tsx",
+                                            lineNumber: 207,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "flex flex-col md:flex-row md:flex-wrap items-start md:items-center gap-0.5 md:gap-6 mt-2",
+                                            children: infoChips && infoChips.map((chip, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex items-center gap-2 mb-1 md:mb-0",
+                                                    children: [
+                                                        getInfoIcon(chip.icon),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-[#F7F7F7] text-xs md:text-lg leading-5 md:leading-6 tracking-[0.03em] font-['Bricolage_Grotesque']",
+                                                            children: chip.text
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/sections/landing/Hero.tsx",
+                                                            lineNumber: 221,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, index, true, {
+                                                    fileName: "[project]/src/sections/landing/Hero.tsx",
+                                                    lineNumber: 219,
+                                                    columnNumber: 19
+                                                }, this))
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/sections/landing/Hero.tsx",
+                                            lineNumber: 217,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "flex flex-row gap-2 md:gap-4 mt-4 w-full",
+                                            children: ctaButtons && ctaButtons.map((button, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                    className: `px-4 md:px-6 py-2 md:py-3 rounded-lg font-medium font-['Bricolage_Grotesque'] text-xs md:text-base leading-6 ${button.variant === 'primary' ? 'bg-[#E50914] text-white' : 'bg-white/20 backdrop-blur-md text-white'}`,
+                                                    onClick: ()=>{
+                                                        if (button.text === 'Request Info') {
+                                                            router.push('/contact');
+                                                        }
+                                                    },
+                                                    style: {
+                                                        minWidth: 120
+                                                    },
+                                                    children: button.text
+                                                }, index, false, {
+                                                    fileName: "[project]/src/sections/landing/Hero.tsx",
+                                                    lineNumber: 231,
+                                                    columnNumber: 19
+                                                }, this))
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/sections/landing/Hero.tsx",
+                                            lineNumber: 229,
+                                            columnNumber: 15
                                         }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/sections/landing/Hero.tsx",
-                                        lineNumber: 197,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                        className: "text-white text-4xl sm:text-5xl lg:text-[60px] font-semibold leading-tight sm:leading-[1.1] font-['General_Sans'] w-full mx-0 md:mx-0 md:w-3/4",
-                                        children: title.split('\n').map((line, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].Fragment, {
-                                                children: [
-                                                    line,
-                                                    i < title.split('\n').length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                        fileName: "[project]/src/sections/landing/Hero.tsx",
-                                                        lineNumber: 209,
-                                                        columnNumber: 56
-                                                    }, this)
-                                                ]
-                                            }, i, true, {
-                                                fileName: "[project]/src/sections/landing/Hero.tsx",
-                                                lineNumber: 207,
-                                                columnNumber: 17
-                                            }, this))
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/sections/landing/Hero.tsx",
-                                        lineNumber: 205,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex flex-col md:flex-row md:flex-wrap items-start md:items-center gap-0.5 md:gap-6 mt-2",
-                                        children: infoChips && infoChips.map((chip, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "flex items-center gap-2 mb-1 md:mb-0",
-                                                children: [
-                                                    getInfoIcon(chip.icon),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "text-[#F7F7F7] text-xs md:text-lg leading-5 md:leading-6 tracking-[0.03em] font-['Bricolage_Grotesque']",
-                                                        children: chip.text
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/sections/landing/Hero.tsx",
-                                                        lineNumber: 219,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                ]
-                                            }, index, true, {
-                                                fileName: "[project]/src/sections/landing/Hero.tsx",
-                                                lineNumber: 217,
-                                                columnNumber: 17
-                                            }, this))
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/sections/landing/Hero.tsx",
-                                        lineNumber: 215,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex flex-row gap-2 md:gap-4 mt-4 w-full pb-20 md:pb-0",
-                                        children: ctaButtons && ctaButtons.map((button, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: `px-4 md:px-6 py-2 md:py-3 rounded-lg font-medium font-['Bricolage_Grotesque'] text-xs md:text-base leading-6 ${button.variant === 'primary' ? 'bg-[#E50914] text-white' : 'bg-white/20 backdrop-blur-md text-white'}`,
-                                                onClick: ()=>{
-                                                    if (button.text === 'Request Info') {
-                                                        router.push('/contact');
-                                                    }
-                                                },
-                                                style: {
-                                                    minWidth: 120
-                                                },
-                                                children: button.text
-                                            }, index, false, {
-                                                fileName: "[project]/src/sections/landing/Hero.tsx",
-                                                lineNumber: 229,
-                                                columnNumber: 17
-                                            }, this))
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/sections/landing/Hero.tsx",
-                                        lineNumber: 227,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/sections/landing/Hero.tsx",
+                                    lineNumber: 197,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/src/sections/landing/Hero.tsx",
-                                lineNumber: 195,
+                                lineNumber: 196,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                                 onSubmit: handleSearch,
                                 className: "w-full max-w-xs md:max-w-screen-lg mx-auto mt-4 md:mt-0",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex flex-col md:flex-row md:flex-wrap gap-2 md:gap-3 mb-3 md:mb-0 pt-0 md:pt-20",
+                                    className: "flex flex-col md:flex-row md:flex-wrap gap-2 md:gap-3 mb-3 md:mb-0 pt-0 md:pt-5",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "relative w-full md:flex-1 md:min-w-[180px]",
@@ -625,7 +632,7 @@ const Hero = ({ onSearch, searchActive, matched: matchedProp })=>{
                                                     children: getInfoIcon('location')
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/sections/landing/Hero.tsx",
-                                                    lineNumber: 254,
+                                                    lineNumber: 257,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -636,13 +643,13 @@ const Hero = ({ onSearch, searchActive, matched: matchedProp })=>{
                                                     onChange: (e)=>setLocation(e.target.value)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/sections/landing/Hero.tsx",
-                                                    lineNumber: 257,
+                                                    lineNumber: 260,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/sections/landing/Hero.tsx",
-                                            lineNumber: 253,
+                                            lineNumber: 256,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -657,12 +664,12 @@ const Hero = ({ onSearch, searchActive, matched: matchedProp })=>{
                                                             children: option.label
                                                         }, option.value, false, {
                                                             fileName: "[project]/src/sections/landing/Hero.tsx",
-                                                            lineNumber: 273,
+                                                            lineNumber: 276,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/sections/landing/Hero.tsx",
-                                                    lineNumber: 267,
+                                                    lineNumber: 270,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -670,13 +677,13 @@ const Hero = ({ onSearch, searchActive, matched: matchedProp })=>{
                                                     children: getInfoIcon('dropdown')
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/sections/landing/Hero.tsx",
-                                                    lineNumber: 278,
+                                                    lineNumber: 281,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/sections/landing/Hero.tsx",
-                                            lineNumber: 266,
+                                            lineNumber: 269,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -692,7 +699,7 @@ const Hero = ({ onSearch, searchActive, matched: matchedProp })=>{
                                                             children: "Select price range"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/sections/landing/Hero.tsx",
-                                                            lineNumber: 289,
+                                                            lineNumber: 292,
                                                             columnNumber: 19
                                                         }, this),
                                                         [
@@ -702,13 +709,13 @@ const Hero = ({ onSearch, searchActive, matched: matchedProp })=>{
                                                                 children: pr
                                                             }, i, false, {
                                                                 fileName: "[project]/src/sections/landing/Hero.tsx",
-                                                                lineNumber: 291,
+                                                                lineNumber: 294,
                                                                 columnNumber: 21
                                                             }, this))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/sections/landing/Hero.tsx",
-                                                    lineNumber: 284,
+                                                    lineNumber: 287,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -716,13 +723,13 @@ const Hero = ({ onSearch, searchActive, matched: matchedProp })=>{
                                                     children: getInfoIcon('dropdown')
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/sections/landing/Hero.tsx",
-                                                    lineNumber: 294,
+                                                    lineNumber: 297,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/sections/landing/Hero.tsx",
-                                            lineNumber: 283,
+                                            lineNumber: 286,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -733,25 +740,25 @@ const Hero = ({ onSearch, searchActive, matched: matchedProp })=>{
                                                     className: "w-4 h-4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/sections/landing/Hero.tsx",
-                                                    lineNumber: 300,
+                                                    lineNumber: 303,
                                                     columnNumber: 17
                                                 }, this),
                                                 "Search"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/sections/landing/Hero.tsx",
-                                            lineNumber: 299,
+                                            lineNumber: 302,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/sections/landing/Hero.tsx",
-                                    lineNumber: 251,
+                                    lineNumber: 254,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/sections/landing/Hero.tsx",
-                                lineNumber: 250,
+                                lineNumber: 253,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -766,12 +773,12 @@ const Hero = ({ onSearch, searchActive, matched: matchedProp })=>{
                                         children: option.label
                                     }, option.value, false, {
                                         fileName: "[project]/src/sections/landing/Hero.tsx",
-                                        lineNumber: 308,
+                                        lineNumber: 311,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/sections/landing/Hero.tsx",
-                                lineNumber: 306,
+                                lineNumber: 309,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -787,66 +794,73 @@ const Hero = ({ onSearch, searchActive, matched: matchedProp })=>{
                 columnNumber: 7
             }, this),
             results.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "w-full bg-[#1A1A1A] py-12 sm:py-16",
+                className: "w-full bg-[#1A1A1A] py-8 sm:py-12",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex justify-between items-center mb-6 sm:mb-8",
+                            className: "mb-6 sm:mb-8",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-2xl sm:text-3xl font-medium text-white font-['Bricolage_Grotesque'] tracking-wide",
                                 children: "Matched Properties"
                             }, void 0, false, {
                                 fileName: "[project]/src/sections/landing/Hero.tsx",
-                                lineNumber: 329,
+                                lineNumber: 332,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/sections/landing/Hero.tsx",
-                            lineNumber: 328,
+                            lineNumber: 331,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-8 pb-6 px-4 sm:px-6 lg:px-8",
+                            className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-6",
                             children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "text-gray-400",
                                 children: "Loading..."
                             }, void 0, false, {
                                 fileName: "[project]/src/sections/landing/Hero.tsx",
-                                lineNumber: 335,
+                                lineNumber: 338,
                                 columnNumber: 17
                             }, this) : paginated.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "text-gray-400",
                                 children: "No properties found."
                             }, void 0, false, {
                                 fileName: "[project]/src/sections/landing/Hero.tsx",
-                                lineNumber: 337,
+                                lineNumber: 340,
                                 columnNumber: 17
-                            }, this) : paginated.map((property)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$property$2f$ProjectCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    project: {
-                                        id: property._id || '',
-                                        title: property.name,
-                                        location: property.location,
-                                        price: formatPriceRange(property.priceRange),
-                                        type: property.propertyType,
-                                        status: property.status,
-                                        image: property.gallery && property.gallery[0] && (property.gallery[0].data || property.gallery[0].url) || '',
-                                        bhk: property.keyHighlights?.unitConfiguration || '',
-                                        gallery: property.gallery
-                                    },
-                                    className: "w-[300px] sm:w-[390px] lg:w-[370px]"
+                            }, this) : paginated.map((property)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "w-full",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$property$2f$ProjectCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        project: {
+                                            id: property._id || '',
+                                            title: property.name,
+                                            location: property.location,
+                                            price: formatPriceRange(property.priceRange),
+                                            type: property.propertyType,
+                                            status: property.status,
+                                            image: property.gallery?.[0]?.data || property.gallery?.[0]?.url || '',
+                                            bhk: property.keyHighlights?.unitConfiguration || '',
+                                            gallery: property.gallery
+                                        },
+                                        className: "w-full h-full"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/sections/landing/Hero.tsx",
+                                        lineNumber: 344,
+                                        columnNumber: 21
+                                    }, this)
                                 }, property._id, false, {
                                     fileName: "[project]/src/sections/landing/Hero.tsx",
-                                    lineNumber: 340,
+                                    lineNumber: 343,
                                     columnNumber: 19
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/sections/landing/Hero.tsx",
-                            lineNumber: 333,
+                            lineNumber: 336,
                             columnNumber: 13
                         }, this),
                         totalPages > 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex justify-center mt-8",
+                            className: "flex justify-center mt-6",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                     className: `mx-1 px-3 py-1 rounded bg-gray-800 text-gray-300 border border-gray-700 ${page === 1 ? 'opacity-50 cursor-not-allowed' : 'hover:bg-gray-700'}`,
@@ -855,18 +869,18 @@ const Hero = ({ onSearch, searchActive, matched: matchedProp })=>{
                                     children: '<'
                                 }, void 0, false, {
                                     fileName: "[project]/src/sections/landing/Hero.tsx",
-                                    lineNumber: 361,
+                                    lineNumber: 365,
                                     columnNumber: 17
                                 }, this),
                                 [
                                     ...Array(totalPages)
                                 ].map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: `mx-1 px-3 py-1 rounded border border-gray-700 ${page === i + 1 ? 'bg-red-600 text-white' : 'bg-gray-800 text-gray-300 hover:bg-gray-700'}`,
+                                        className: `mx-1 px-3 py-1 rounded border ${page === i + 1 ? 'bg-red-600 text-white border-red-600' : 'bg-gray-800 text-gray-300 border-gray-700 hover:bg-gray-700'}`,
                                         onClick: ()=>setPage(i + 1),
                                         children: i + 1
                                     }, i, false, {
                                         fileName: "[project]/src/sections/landing/Hero.tsx",
-                                        lineNumber: 369,
+                                        lineNumber: 373,
                                         columnNumber: 19
                                     }, this)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -876,24 +890,24 @@ const Hero = ({ onSearch, searchActive, matched: matchedProp })=>{
                                     children: '>'
                                 }, void 0, false, {
                                     fileName: "[project]/src/sections/landing/Hero.tsx",
-                                    lineNumber: 377,
+                                    lineNumber: 381,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/sections/landing/Hero.tsx",
-                            lineNumber: 360,
+                            lineNumber: 364,
                             columnNumber: 15
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/sections/landing/Hero.tsx",
-                    lineNumber: 327,
+                    lineNumber: 330,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/sections/landing/Hero.tsx",
-                lineNumber: 326,
+                lineNumber: 329,
                 columnNumber: 9
             }, this)
         ]
@@ -1138,105 +1152,119 @@ _c = ProjectCard;
     const paginated = showAll ? all.slice((page - 1) * pageSize, page * pageSize) : featured;
     const totalPages = showAll ? Math.ceil(all.length / pageSize) : 1;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "jsx-dfddf51250ab189a" + " " + "w-full bg-[#1A1A1A] py-12 sm:py-16",
+        className: "jsx-dfddf51250ab189a" + " " + "w-full bg-[#1A1A1A] py-8 sm:py-12",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-dfddf51250ab189a" + " " + "max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8",
+                className: "jsx-dfddf51250ab189a" + " " + "w-full px-4 sm:px-6 lg:px-8",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-dfddf51250ab189a" + " " + "flex justify-between items-center mb-6 sm:mb-8",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "jsx-dfddf51250ab189a" + " " + "text-2xl sm:text-3xl font-medium text-white font-['Bricolage_Grotesque'] tracking-wide",
-                                children: "Featured Projects"
-                            }, void 0, false, {
-                                fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
-                                lineNumber: 153,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                onClick: ()=>{
-                                    setShowAll(!showAll);
-                                    setPage(1);
-                                },
-                                className: "jsx-dfddf51250ab189a" + " " + "flex items-center text-white text-sm font-['Bricolage_Grotesque'] hover:opacity-80 transition-opacity underline",
-                                children: showAll ? 'Show Featured' : 'See All'
-                            }, void 0, false, {
-                                fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
-                                lineNumber: 156,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                        className: "jsx-dfddf51250ab189a" + " " + "w-full",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "jsx-dfddf51250ab189a" + " " + "flex justify-between items-center mb-6 sm:mb-8",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "jsx-dfddf51250ab189a" + " " + "text-2xl sm:text-3xl font-medium text-white font-['Bricolage_Grotesque'] tracking-wide",
+                                    children: "Featured Projects"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
+                                    lineNumber: 154,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    onClick: ()=>{
+                                        setShowAll(!showAll);
+                                        setPage(1);
+                                    },
+                                    className: "jsx-dfddf51250ab189a" + " " + "flex items-center text-white text-sm font-['Bricolage_Grotesque'] hover:opacity-80 transition-opacity underline",
+                                    children: showAll ? 'Show Featured' : 'See All'
+                                }, void 0, false, {
+                                    fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
+                                    lineNumber: 157,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
+                            lineNumber: 153,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
                         fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
                         lineNumber: 152,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-dfddf51250ab189a" + " " + "relative -mx-4 sm:-mx-6 lg:-mx-8",
+                        className: "jsx-dfddf51250ab189a" + " " + "relative w-full",
                         children: [
                             showAll ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-dfddf51250ab189a" + " " + "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-8 pb-6 px-4 sm:px-6 lg:px-8",
+                                className: "jsx-dfddf51250ab189a" + " " + "max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-6",
                                 children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "jsx-dfddf51250ab189a" + " " + "text-gray-400",
                                     children: "Loading..."
                                 }, void 0, false, {
                                     fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
-                                    lineNumber: 167,
+                                    lineNumber: 169,
                                     columnNumber: 17
                                 }, this) : paginated.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "jsx-dfddf51250ab189a" + " " + "text-gray-400",
                                     children: "No properties found."
                                 }, void 0, false, {
                                     fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
-                                    lineNumber: 169,
+                                    lineNumber: 171,
                                     columnNumber: 17
                                 }, this) : paginated.map((property)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ProjectCard, {
                                         property: property,
-                                        cardClassName: "w-[300px] sm:w-[390px] lg:w-[370px]"
+                                        cardClassName: "w-full"
                                     }, property._id, false, {
                                         fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
-                                        lineNumber: 172,
+                                        lineNumber: 174,
                                         columnNumber: 19
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
-                                lineNumber: 165,
+                                lineNumber: 167,
                                 columnNumber: 13
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
                                     scrollbarWidth: 'none',
                                     msOverflowStyle: 'none'
                                 },
-                                className: "jsx-dfddf51250ab189a" + " " + "flex space-x-4 sm:space-x-6 overflow-x-auto pb-6 px-4 sm:px-6 lg:px-8",
-                                children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-dfddf51250ab189a" + " " + "text-gray-400",
-                                    children: "Loading..."
-                                }, void 0, false, {
-                                    fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
-                                    lineNumber: 179,
-                                    columnNumber: 17
-                                }, this) : paginated.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-dfddf51250ab189a" + " " + "text-gray-400",
-                                    children: "No properties found."
-                                }, void 0, false, {
-                                    fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
-                                    lineNumber: 181,
-                                    columnNumber: 17
-                                }, this) : paginated.map((property)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ProjectCard, {
-                                        property: property
-                                    }, property._id, false, {
+                                className: "jsx-dfddf51250ab189a" + " " + "w-full overflow-x-auto pb-6",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "jsx-dfddf51250ab189a" + " " + "flex space-x-4 sm:space-x-6 w-max pl-0 sm:pl-0 lg:pl-0 pr-4 sm:pr-6 lg:pr-8",
+                                    children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-dfddf51250ab189a" + " " + "text-gray-400",
+                                        children: "Loading..."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
+                                        lineNumber: 182,
+                                        columnNumber: 19
+                                    }, this) : paginated.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-dfddf51250ab189a" + " " + "text-gray-400",
+                                        children: "No properties found."
+                                    }, void 0, false, {
                                         fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
                                         lineNumber: 184,
                                         columnNumber: 19
-                                    }, this))
+                                    }, this) : paginated.map((property)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ProjectCard, {
+                                            property: property
+                                        }, property._id, false, {
+                                            fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
+                                            lineNumber: 187,
+                                            columnNumber: 21
+                                        }, this))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
+                                    lineNumber: 180,
+                                    columnNumber: 15
+                                }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
-                                lineNumber: 177,
+                                lineNumber: 179,
                                 columnNumber: 13
                             }, this),
                             showAll && totalPages > 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-dfddf51250ab189a" + " " + "flex justify-center mt-8",
+                                className: "jsx-dfddf51250ab189a" + " " + "max-w-screen-xl mx-auto flex justify-center mt-8",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: ()=>page > 1 && setPage(page - 1),
@@ -1245,18 +1273,18 @@ _c = ProjectCard;
                                         children: '<'
                                     }, void 0, false, {
                                         fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
-                                        lineNumber: 191,
+                                        lineNumber: 195,
                                         columnNumber: 15
                                     }, this),
                                     [
                                         ...Array(totalPages)
                                     ].map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             onClick: ()=>setPage(i + 1),
-                                            className: "jsx-dfddf51250ab189a" + " " + `mx-1 px-3 py-1 rounded border border-gray-700 ${page === i + 1 ? 'bg-red-600 text-white' : 'bg-gray-800 text-gray-300 hover:bg-gray-700'}`,
+                                            className: "jsx-dfddf51250ab189a" + " " + `mx-1 px-3 py-1 rounded border ${page === i + 1 ? 'bg-red-600 text-white border-red-600' : 'bg-gray-800 text-gray-300 border-gray-700 hover:bg-gray-700'}`,
                                             children: i + 1
                                         }, i, false, {
                                             fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
-                                            lineNumber: 199,
+                                            lineNumber: 203,
                                             columnNumber: 17
                                         }, this)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1266,29 +1294,29 @@ _c = ProjectCard;
                                         children: '>'
                                     }, void 0, false, {
                                         fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
-                                        lineNumber: 207,
+                                        lineNumber: 211,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
-                                lineNumber: 190,
+                                lineNumber: 194,
                                 columnNumber: 13
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            !showAll && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
                                     background: 'linear-gradient(to left, #1A1A1A, rgba(26, 26, 26, 0))'
                                 },
                                 className: "jsx-dfddf51250ab189a" + " " + "absolute right-0 top-0 bottom-0 w-16 sm:w-24 lg:w-32 pointer-events-none"
                             }, void 0, false, {
                                 fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
-                                lineNumber: 216,
-                                columnNumber: 11
+                                lineNumber: 221,
+                                columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/sections/landing/FeaturedProjects.tsx",
-                        lineNumber: 163,
+                        lineNumber: 165,
                         columnNumber: 9
                     }, this)
                 ]
@@ -1408,194 +1436,208 @@ function formatPriceRange(price) {
         }
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "jsx-dfddf51250ab189a" + " " + "w-full bg-[#1A1A1A] py-12 sm:py-16",
+        className: "jsx-dfddf51250ab189a" + " " + "w-full bg-[#1A1A1A] py-8 sm:py-12",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-dfddf51250ab189a" + " " + "max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8",
+                className: "jsx-dfddf51250ab189a" + " " + "w-full px-4 sm:px-6 lg:px-8",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-dfddf51250ab189a" + " " + "flex justify-between items-center mb-6 sm:mb-8",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "jsx-dfddf51250ab189a" + " " + "text-2xl sm:text-3xl font-medium text-white font-['Bricolage_Grotesque'] tracking-wide",
-                                children: "Residential Spaces"
-                            }, void 0, false, {
-                                fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                                lineNumber: 78,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                href: "/residential",
-                                className: "flex items-center text-white text-sm font-['Bricolage_Grotesque'] hover:opacity-80 transition-opacity underline",
-                                children: "See All"
-                            }, void 0, false, {
-                                fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                                lineNumber: 81,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                        className: "jsx-dfddf51250ab189a" + " " + "w-full",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "jsx-dfddf51250ab189a" + " " + "flex justify-between items-center mb-6 sm:mb-8",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "jsx-dfddf51250ab189a" + " " + "text-2xl sm:text-3xl font-medium text-white font-['Bricolage_Grotesque'] tracking-wide",
+                                    children: "Residential Spaces"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
+                                    lineNumber: 79,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "/residential",
+                                    className: "flex items-center text-white text-sm font-['Bricolage_Grotesque'] hover:opacity-80 transition-opacity underline",
+                                    children: "See All"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
+                                    lineNumber: 82,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
+                            lineNumber: 78,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
                         fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
                         lineNumber: 77,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-dfddf51250ab189a" + " " + "relative -mx-4 sm:-mx-6 lg:-mx-8",
+                        className: "jsx-dfddf51250ab189a" + " " + "relative w-full",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
                                     scrollbarWidth: 'none',
                                     msOverflowStyle: 'none'
                                 },
-                                className: "jsx-dfddf51250ab189a" + " " + "flex space-x-4 sm:space-x-6 overflow-x-auto pb-6 px-4 sm:px-6 lg:px-8",
-                                children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-dfddf51250ab189a" + " " + "text-gray-400",
-                                    children: "Loading..."
-                                }, void 0, false, {
-                                    fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                                    lineNumber: 97,
-                                    columnNumber: 15
-                                }, this) : properties.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-dfddf51250ab189a" + " " + "text-gray-400",
-                                    children: "No residential properties found."
-                                }, void 0, false, {
-                                    fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                                    lineNumber: 99,
-                                    columnNumber: 15
-                                }, this) : properties.map((property)=>{
-                                    const status = statusConfig[property.status] || {
-                                        label: property.status,
-                                        className: 'bg-white text-black'
-                                    };
-                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        href: `/projects/${property._id}`,
-                                        className: "block",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-dfddf51250ab189a" + " " + "flex-none w-[300px] sm:w-[360px] bg-[#0A0A0A] rounded-lg shadow-lg overflow-hidden flex flex-col hover:shadow-xl transition-shadow duration-300",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-dfddf51250ab189a" + " " + "relative w-full h-[150px] sm:h-[160px] bg-gray-800",
-                                                    children: [
-                                                        property.gallery && property.gallery[0] && (property.gallery[0].data || property.gallery[0].url) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                            src: property.gallery[0].data || property.gallery[0].url,
-                                                            alt: property.gallery[0].name || property.name,
-                                                            fill: true,
-                                                            className: "w-full h-full object-cover"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                                                            lineNumber: 109,
-                                                            columnNumber: 27
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-dfddf51250ab189a" + " " + "absolute left-4 bottom-4",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                className: "jsx-dfddf51250ab189a" + " " + `px-2 py-1 text-xs font-medium rounded ${status.className}`,
-                                                                children: status.label
+                                className: "jsx-dfddf51250ab189a" + " " + "w-full overflow-x-auto pb-6",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "jsx-dfddf51250ab189a" + " " + "flex space-x-4 sm:space-x-6 w-max pl-0 sm:pl-0 lg:pl-0 pr-4 sm:pr-6 lg:pr-8",
+                                    children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-dfddf51250ab189a" + " " + "text-gray-400",
+                                        children: "Loading..."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
+                                        lineNumber: 94,
+                                        columnNumber: 17
+                                    }, this) : properties.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-dfddf51250ab189a" + " " + "text-gray-400",
+                                        children: "No residential properties found."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
+                                        lineNumber: 96,
+                                        columnNumber: 17
+                                    }, this) : properties.map((property)=>{
+                                        const status = statusConfig[property.status] || {
+                                            label: property.status,
+                                            className: 'bg-white text-black'
+                                        };
+                                        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            href: `/projects/${property._id}`,
+                                            className: "block",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-dfddf51250ab189a" + " " + "flex-none w-[300px] sm:w-[360px] bg-[#0A0A0A] rounded-lg shadow-lg overflow-hidden flex flex-col hover:shadow-xl transition-shadow duration-300",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-dfddf51250ab189a" + " " + "relative w-full h-[150px] sm:h-[160px] bg-gray-800",
+                                                        children: [
+                                                            property.gallery && property.gallery[0] && (property.gallery[0].data || property.gallery[0].url) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: property.gallery[0].data || property.gallery[0].url,
+                                                                alt: property.gallery[0].name || property.name,
+                                                                fill: true,
+                                                                className: "w-full h-full object-cover"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                                                                lineNumber: 118,
+                                                                lineNumber: 106,
+                                                                columnNumber: 29
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "jsx-dfddf51250ab189a" + " " + "absolute left-4 bottom-4",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    className: "jsx-dfddf51250ab189a" + " " + `px-2 py-1 text-xs font-medium rounded ${status.className}`,
+                                                                    children: status.label
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
+                                                                    lineNumber: 115,
+                                                                    columnNumber: 29
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
+                                                                lineNumber: 114,
                                                                 columnNumber: 27
                                                             }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                                                            lineNumber: 117,
-                                                            columnNumber: 25
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                                                    lineNumber: 107,
-                                                    columnNumber: 23
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-dfddf51250ab189a" + " " + "p-3 sm:p-4 flex-1 flex flex-col",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                            className: "jsx-dfddf51250ab189a" + " " + "text-white text-base sm:text-lg font-medium leading-snug sm:leading-7",
-                                                            children: property.name
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                                                            lineNumber: 125,
-                                                            columnNumber: 25
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-dfddf51250ab189a" + " " + "flex items-center mt-1 text-[#E0E0E0] text-xs sm:text-sm",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaMapMarkerAlt"], {
-                                                                    className: "w-4 h-4 text-[#9CA3AF] mr-1"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                                                                    lineNumber: 129,
-                                                                    columnNumber: 27
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "jsx-dfddf51250ab189a",
-                                                                    children: property.location
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                                                                    lineNumber: 130,
-                                                                    columnNumber: 27
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                                                            lineNumber: 128,
-                                                            columnNumber: 25
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-dfddf51250ab189a" + " " + "mt-2 flex items-center justify-between text-xs sm:text-sm",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "jsx-dfddf51250ab189a" + " " + "bg-white/10 text-white px-2 py-1 rounded-md",
-                                                                    children: formatPriceRange(property.priceRange)
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                                                                    lineNumber: 133,
-                                                                    columnNumber: 27
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "jsx-dfddf51250ab189a" + " " + "text-[#E0E0E0]",
-                                                                    children: property.keyHighlights.unitConfiguration ? property.keyHighlights.unitConfiguration.split(',').map((b)=>b.trim()).filter(Boolean).join(', ') : ''
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                                                                    lineNumber: 136,
-                                                                    columnNumber: 27
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                                                            lineNumber: 132,
-                                                            columnNumber: 25
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-dfddf51250ab189a" + " " + "mt-2 text-xs sm:text-sm text-[#E0E0E0]",
-                                                            children: property.tagline
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                                                            lineNumber: 146,
-                                                            columnNumber: 25
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                                                    lineNumber: 124,
-                                                    columnNumber: 23
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
+                                                        lineNumber: 104,
+                                                        columnNumber: 25
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-dfddf51250ab189a" + " " + "p-3 sm:p-4 flex-1 flex flex-col",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                                className: "jsx-dfddf51250ab189a" + " " + "text-white text-base sm:text-lg font-medium leading-snug sm:leading-7",
+                                                                children: property.name
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
+                                                                lineNumber: 122,
+                                                                columnNumber: 27
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "jsx-dfddf51250ab189a" + " " + "flex items-center mt-1 text-[#E0E0E0] text-xs sm:text-sm",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaMapMarkerAlt"], {
+                                                                        className: "w-4 h-4 text-[#9CA3AF] mr-1"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
+                                                                        lineNumber: 126,
+                                                                        columnNumber: 29
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        className: "jsx-dfddf51250ab189a",
+                                                                        children: property.location
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
+                                                                        lineNumber: 127,
+                                                                        columnNumber: 29
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
+                                                                lineNumber: 125,
+                                                                columnNumber: 27
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "jsx-dfddf51250ab189a" + " " + "mt-2 flex items-center justify-between text-xs sm:text-sm",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        className: "jsx-dfddf51250ab189a" + " " + "bg-white/10 text-white px-2 py-1 rounded-md",
+                                                                        children: formatPriceRange(property.priceRange)
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
+                                                                        lineNumber: 130,
+                                                                        columnNumber: 29
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        className: "jsx-dfddf51250ab189a" + " " + "text-[#E0E0E0]",
+                                                                        children: property.keyHighlights.unitConfiguration ? property.keyHighlights.unitConfiguration.split(',').map((b)=>b.trim()).filter(Boolean).join(', ') : ''
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
+                                                                        lineNumber: 133,
+                                                                        columnNumber: 29
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
+                                                                lineNumber: 129,
+                                                                columnNumber: 27
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "jsx-dfddf51250ab189a" + " " + "mt-2 text-xs sm:text-sm text-[#E0E0E0]",
+                                                                children: property.tagline
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
+                                                                lineNumber: 143,
+                                                                columnNumber: 27
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
+                                                        lineNumber: 121,
+                                                        columnNumber: 25
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
+                                                lineNumber: 102,
+                                                columnNumber: 23
+                                            }, this)
+                                        }, property._id, false, {
                                             fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                                            lineNumber: 105,
+                                            lineNumber: 101,
                                             columnNumber: 21
-                                        }, this)
-                                    }, property._id, false, {
-                                        fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                                        lineNumber: 104,
-                                        columnNumber: 17
-                                    }, this);
-                                })
+                                        }, this);
+                                    })
+                                }, void 0, false, {
+                                    fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
+                                    lineNumber: 92,
+                                    columnNumber: 13
+                                }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                                lineNumber: 89,
+                                lineNumber: 91,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1605,13 +1647,13 @@ function formatPriceRange(price) {
                                 className: "jsx-dfddf51250ab189a" + " " + "absolute right-0 top-0 bottom-0 w-16 sm:w-24 lg:w-32 pointer-events-none"
                             }, void 0, false, {
                                 fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                                lineNumber: 156,
+                                lineNumber: 154,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/sections/landing/ResidentialSpaces.tsx",
-                        lineNumber: 88,
+                        lineNumber: 90,
                         columnNumber: 9
                     }, this)
                 ]
@@ -1730,202 +1772,216 @@ function formatPriceRange(price) {
         }
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "jsx-d8b65b42e7fc341c" + " " + "w-full bg-[#1A1A1A] py-12 sm:py-16",
+        className: "jsx-dfddf51250ab189a" + " " + "w-full bg-[#1A1A1A] py-8 sm:py-12",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-d8b65b42e7fc341c" + " " + "max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8",
+                className: "jsx-dfddf51250ab189a" + " " + "w-full px-4 sm:px-6 lg:px-8",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-d8b65b42e7fc341c" + " " + "flex justify-between items-center mb-6 sm:mb-8",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "jsx-d8b65b42e7fc341c" + " " + "text-2xl sm:text-3xl font-medium text-white font-['Bricolage_Grotesque'] tracking-wide",
-                                children: "Commercial Spaces"
-                            }, void 0, false, {
-                                fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
-                                lineNumber: 78,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                onClick: ()=>console.log('See all commercial spaces clicked'),
-                                className: "jsx-d8b65b42e7fc341c" + " " + "flex items-center text-white text-sm font-['Bricolage_Grotesque'] hover:opacity-80 transition-opacity underline",
-                                children: "See All"
-                            }, void 0, false, {
-                                fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
-                                lineNumber: 81,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                        className: "jsx-dfddf51250ab189a" + " " + "w-full",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "jsx-dfddf51250ab189a" + " " + "flex justify-between items-center mb-6 sm:mb-8",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "jsx-dfddf51250ab189a" + " " + "text-2xl sm:text-3xl font-medium text-white font-['Bricolage_Grotesque'] tracking-wide",
+                                    children: "Commercial Spaces"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
+                                    lineNumber: 79,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    onClick: ()=>{},
+                                    className: "jsx-dfddf51250ab189a" + " " + "flex items-center text-white text-sm font-['Bricolage_Grotesque'] hover:opacity-80 transition-opacity underline",
+                                    children: "See All"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
+                                    lineNumber: 82,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
+                            lineNumber: 78,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
                         fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
                         lineNumber: 77,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-d8b65b42e7fc341c" + " " + "relative -mx-4 sm:-mx-6 lg:-mx-8",
+                        className: "jsx-dfddf51250ab189a" + " " + "relative w-full",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
                                     scrollbarWidth: 'none',
                                     msOverflowStyle: 'none'
                                 },
-                                className: "jsx-d8b65b42e7fc341c" + " " + "flex space-x-4 sm:space-x-6 overflow-x-auto pb-6 px-4 sm:px-6 lg:px-8",
-                                children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-d8b65b42e7fc341c" + " " + "text-gray-400",
-                                    children: "Loading..."
-                                }, void 0, false, {
-                                    fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
-                                    lineNumber: 98,
-                                    columnNumber: 15
-                                }, this) : properties.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-d8b65b42e7fc341c" + " " + "text-gray-400",
-                                    children: "No commercial properties found."
-                                }, void 0, false, {
-                                    fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
-                                    lineNumber: 100,
-                                    columnNumber: 15
-                                }, this) : properties.map((property)=>{
-                                    const status = statusConfig[property.status] || {
-                                        label: property.status,
-                                        className: 'bg-white text-black'
-                                    };
-                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        href: `/projects/${property._id}`,
-                                        className: "block",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-d8b65b42e7fc341c" + " " + "flex-none w-[300px] sm:w-[360px] bg-[#0A0A0A] rounded-lg shadow-lg overflow-hidden flex flex-col hover:shadow-xl transition-shadow duration-300",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-d8b65b42e7fc341c" + " " + "relative w-full h-[150px] sm:h-[160px] bg-gray-800",
-                                                    children: [
-                                                        property.gallery && property.gallery[0] && (property.gallery[0].data || property.gallery[0].url) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                            src: property.gallery[0].data || property.gallery[0].url,
-                                                            alt: property.gallery[0].name || property.name,
-                                                            fill: true,
-                                                            className: "w-full h-full object-cover"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
-                                                            lineNumber: 110,
-                                                            columnNumber: 27
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-d8b65b42e7fc341c" + " " + "absolute left-4 bottom-4",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                className: "jsx-d8b65b42e7fc341c" + " " + `px-2 py-1 text-xs font-medium rounded ${status.className}`,
-                                                                children: status.label
+                                className: "jsx-dfddf51250ab189a" + " " + "w-full overflow-x-auto pb-6",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "jsx-dfddf51250ab189a" + " " + "flex space-x-4 sm:space-x-6 w-max pl-0 sm:pl-0 lg:pl-0 pr-4 sm:pr-6 lg:pr-8",
+                                    children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-dfddf51250ab189a" + " " + "text-gray-400",
+                                        children: "Loading..."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
+                                        lineNumber: 94,
+                                        columnNumber: 17
+                                    }, this) : properties.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-dfddf51250ab189a" + " " + "text-gray-400",
+                                        children: "No commercial properties found."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
+                                        lineNumber: 96,
+                                        columnNumber: 17
+                                    }, this) : properties.map((property)=>{
+                                        const status = statusConfig[property.status] || {
+                                            label: property.status,
+                                            className: 'bg-white text-black'
+                                        };
+                                        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            href: `/projects/${property._id}`,
+                                            className: "block",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-dfddf51250ab189a" + " " + "flex-none w-[300px] sm:w-[360px] bg-[#0A0A0A] rounded-lg shadow-lg overflow-hidden flex flex-col hover:shadow-xl transition-shadow duration-300",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-dfddf51250ab189a" + " " + "relative w-full h-[150px] sm:h-[160px] bg-gray-800",
+                                                        children: [
+                                                            property.gallery && property.gallery[0] && (property.gallery[0].data || property.gallery[0].url) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: property.gallery[0].data || property.gallery[0].url,
+                                                                alt: property.gallery[0].name || property.name,
+                                                                fill: true,
+                                                                className: "w-full h-full object-cover"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
-                                                                lineNumber: 119,
+                                                                lineNumber: 106,
+                                                                columnNumber: 29
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "jsx-dfddf51250ab189a" + " " + "absolute left-4 bottom-4",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    className: "jsx-dfddf51250ab189a" + " " + `px-2 py-1 text-xs font-medium rounded ${status.className}`,
+                                                                    children: status.label
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
+                                                                    lineNumber: 115,
+                                                                    columnNumber: 29
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
+                                                                lineNumber: 114,
                                                                 columnNumber: 27
                                                             }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
-                                                            lineNumber: 118,
-                                                            columnNumber: 25
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
-                                                    lineNumber: 108,
-                                                    columnNumber: 23
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-d8b65b42e7fc341c" + " " + "p-3 sm:p-4 flex-1 flex flex-col",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                            className: "jsx-d8b65b42e7fc341c" + " " + "text-white text-base sm:text-lg font-medium leading-snug sm:leading-7",
-                                                            children: property.name
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
-                                                            lineNumber: 126,
-                                                            columnNumber: 25
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-d8b65b42e7fc341c" + " " + "flex items-center mt-1 text-[#E0E0E0] text-xs sm:text-sm",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaMapMarkerAlt"], {
-                                                                    className: "w-4 h-4 text-[#9CA3AF] mr-1"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
-                                                                    lineNumber: 130,
-                                                                    columnNumber: 27
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "jsx-d8b65b42e7fc341c",
-                                                                    children: property.location
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
-                                                                    lineNumber: 131,
-                                                                    columnNumber: 27
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
-                                                            lineNumber: 129,
-                                                            columnNumber: 25
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-d8b65b42e7fc341c" + " " + "mt-2 flex items-center justify-between text-xs sm:text-sm",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "jsx-d8b65b42e7fc341c" + " " + "bg-white/10 text-white px-2 py-1 rounded-md",
-                                                                    children: formatPriceRange(property.priceRange)
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
-                                                                    lineNumber: 134,
-                                                                    columnNumber: 27
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "jsx-d8b65b42e7fc341c" + " " + "text-[#E0E0E0]",
-                                                                    children: property.keyHighlights.unitConfiguration ? property.keyHighlights.unitConfiguration.split(',').map((b)=>b.trim()).filter(Boolean).join(', ') : ''
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
-                                                                    lineNumber: 137,
-                                                                    columnNumber: 27
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
-                                                            lineNumber: 133,
-                                                            columnNumber: 25
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
-                                                    lineNumber: 125,
-                                                    columnNumber: 23
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
+                                                        lineNumber: 104,
+                                                        columnNumber: 25
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-dfddf51250ab189a" + " " + "p-3 sm:p-4 flex-1 flex flex-col",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                                className: "jsx-dfddf51250ab189a" + " " + "text-white text-base sm:text-lg font-medium leading-snug sm:leading-7",
+                                                                children: property.name
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
+                                                                lineNumber: 122,
+                                                                columnNumber: 27
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "jsx-dfddf51250ab189a" + " " + "flex items-center mt-1 text-[#E0E0E0] text-xs sm:text-sm",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaMapMarkerAlt"], {
+                                                                        className: "w-4 h-4 text-[#9CA3AF] mr-1"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
+                                                                        lineNumber: 126,
+                                                                        columnNumber: 29
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        className: "jsx-dfddf51250ab189a",
+                                                                        children: property.location
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
+                                                                        lineNumber: 127,
+                                                                        columnNumber: 29
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
+                                                                lineNumber: 125,
+                                                                columnNumber: 27
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "jsx-dfddf51250ab189a" + " " + "mt-2 flex items-center justify-between text-xs sm:text-sm",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        className: "jsx-dfddf51250ab189a" + " " + "bg-white/10 text-white px-2 py-1 rounded-md",
+                                                                        children: formatPriceRange(property.priceRange)
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
+                                                                        lineNumber: 130,
+                                                                        columnNumber: 29
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        className: "jsx-dfddf51250ab189a" + " " + "text-[#E0E0E0]",
+                                                                        children: property.keyHighlights.unitConfiguration ? property.keyHighlights.unitConfiguration.split(',').map((b)=>b.trim()).filter(Boolean).join(', ') : ''
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
+                                                                        lineNumber: 133,
+                                                                        columnNumber: 29
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
+                                                                lineNumber: 129,
+                                                                columnNumber: 27
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
+                                                        lineNumber: 121,
+                                                        columnNumber: 25
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
+                                                lineNumber: 102,
+                                                columnNumber: 23
+                                            }, this)
+                                        }, property._id, false, {
                                             fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
-                                            lineNumber: 106,
+                                            lineNumber: 101,
                                             columnNumber: 21
-                                        }, this)
-                                    }, property._id, false, {
-                                        fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
-                                        lineNumber: 105,
-                                        columnNumber: 17
-                                    }, this);
-                                })
+                                        }, this);
+                                    })
+                                }, void 0, false, {
+                                    fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
+                                    lineNumber: 92,
+                                    columnNumber: 13
+                                }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
-                                lineNumber: 90,
+                                lineNumber: 91,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
                                     background: 'linear-gradient(to left, #1A1A1A, rgba(26, 26, 26, 0))'
                                 },
-                                className: "jsx-d8b65b42e7fc341c" + " " + "absolute right-0 top-0 bottom-0 w-16 sm:w-24 lg:w-32 pointer-events-none"
+                                className: "jsx-dfddf51250ab189a" + " " + "absolute right-0 top-0 bottom-0 w-16 sm:w-24 lg:w-32 pointer-events-none"
                             }, void 0, false, {
                                 fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
-                                lineNumber: 159,
+                                lineNumber: 151,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/sections/landing/CommercialSpaces.tsx",
-                        lineNumber: 89,
+                        lineNumber: 90,
                         columnNumber: 9
                     }, this)
                 ]
@@ -1935,7 +1991,7 @@ function formatPriceRange(price) {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "d8b65b42e7fc341c",
+                id: "dfddf51250ab189a",
                 children: ".overflow-x-auto::-webkit-scrollbar{display:none}.overflow-x-auto{-ms-overflow-style:none;scrollbar-width:none}"
             }, void 0, false, void 0, this)
         ]
@@ -2013,129 +2069,143 @@ var _s = __turbopack_context__.k.signature();
         }
     }["LocationCollections.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "jsx-dfddf51250ab189a" + " " + "w-full bg-[#1A1A1A] py-12 sm:py-16 lg:py-20",
+        className: "jsx-dfddf51250ab189a" + " " + "w-full bg-[#1A1A1A] py-8 sm:py-12 lg:py-14",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-dfddf51250ab189a" + " " + "max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8",
+                className: "jsx-dfddf51250ab189a" + " " + "w-full px-4 sm:px-6 lg:px-8",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-dfddf51250ab189a" + " " + "flex justify-between items-center mb-6 sm:mb-8",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "jsx-dfddf51250ab189a" + " " + "text-2xl sm:text-3xl font-medium text-white font-['Bricolage_Grotesque'] tracking-wide",
-                                children: "Groups"
-                            }, void 0, false, {
-                                fileName: "[project]/src/sections/landing/LocationCollections.tsx",
-                                lineNumber: 46,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                onClick: ()=>router.push('/groups'),
-                                className: "jsx-dfddf51250ab189a" + " " + "flex items-center text-white text-sm font-['Bricolage_Grotesque'] hover:opacity-80 transition-opacity underline",
-                                children: "See All"
-                            }, void 0, false, {
-                                fileName: "[project]/src/sections/landing/LocationCollections.tsx",
-                                lineNumber: 49,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                        className: "jsx-dfddf51250ab189a" + " " + "w-full",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "jsx-dfddf51250ab189a" + " " + "flex justify-between items-center mb-6 sm:mb-8",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "jsx-dfddf51250ab189a" + " " + "text-2xl sm:text-3xl font-medium text-white font-['Bricolage_Grotesque'] tracking-wide",
+                                    children: "Groups"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/sections/landing/LocationCollections.tsx",
+                                    lineNumber: 47,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    onClick: ()=>router.push('/groups'),
+                                    className: "jsx-dfddf51250ab189a" + " " + "flex items-center text-white text-sm font-['Bricolage_Grotesque'] hover:opacity-80 transition-opacity underline",
+                                    children: "See All"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/sections/landing/LocationCollections.tsx",
+                                    lineNumber: 50,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/sections/landing/LocationCollections.tsx",
+                            lineNumber: 46,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
                         fileName: "[project]/src/sections/landing/LocationCollections.tsx",
                         lineNumber: 45,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-dfddf51250ab189a" + " " + "relative -mx-4 sm:-mx-6 lg:-mx-8",
+                        className: "jsx-dfddf51250ab189a" + " " + "relative w-full",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
                                     scrollbarWidth: 'none',
                                     msOverflowStyle: 'none'
                                 },
-                                className: "jsx-dfddf51250ab189a" + " " + "flex space-x-4 sm:space-x-6 overflow-x-auto pb-6 px-4 sm:px-6 lg:px-8",
-                                children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-dfddf51250ab189a" + " " + "text-gray-400",
-                                    children: "Loading..."
-                                }, void 0, false, {
-                                    fileName: "[project]/src/sections/landing/LocationCollections.tsx",
-                                    lineNumber: 62,
-                                    columnNumber: 15
-                                }, this) : groups.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-dfddf51250ab189a" + " " + "text-gray-400",
-                                    children: "No groups found."
-                                }, void 0, false, {
-                                    fileName: "[project]/src/sections/landing/LocationCollections.tsx",
-                                    lineNumber: 64,
-                                    columnNumber: 15
-                                }, this) : groups.map((group)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        onClick: ()=>router.push(`/groups/${group._id}`),
-                                        className: "jsx-dfddf51250ab189a" + " " + "flex-none w-[260px] h-[200px] sm:w-[310px] sm:h-[240px] bg-[#1A1A1A] rounded-lg shadow-lg overflow-hidden relative group cursor-pointer",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-dfddf51250ab189a" + " " + "absolute inset-0 w-full h-full",
-                                                children: group.photo ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: group.photo,
-                                                    alt: group.name,
-                                                    layout: "fill",
-                                                    objectFit: "cover",
-                                                    className: "w-full h-full transform transition-transform duration-300 group-hover:scale-105"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/sections/landing/LocationCollections.tsx",
-                                                    lineNumber: 75,
-                                                    columnNumber: 23
-                                                }, this) : null
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/sections/landing/LocationCollections.tsx",
-                                                lineNumber: 73,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                style: {
-                                                    background: 'linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%)'
-                                                },
-                                                className: "jsx-dfddf51250ab189a" + " " + "absolute inset-0 w-full h-full"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/sections/landing/LocationCollections.tsx",
-                                                lineNumber: 85,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-dfddf51250ab189a" + " " + "absolute left-4 bottom-4 z-10",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                        className: "jsx-dfddf51250ab189a" + " " + "text-white text-base sm:text-lg font-medium font-['General_Sans'] tracking-wide",
-                                                        children: group.name
+                                className: "jsx-dfddf51250ab189a" + " " + "w-full overflow-x-auto pb-6",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "jsx-dfddf51250ab189a" + " " + "flex space-x-4 sm:space-x-6 w-max pl-0 sm:pl-0 lg:pl-0 pr-4 sm:pr-6 lg:pr-8",
+                                    children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-dfddf51250ab189a" + " " + "text-gray-400",
+                                        children: "Loading..."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/sections/landing/LocationCollections.tsx",
+                                        lineNumber: 62,
+                                        columnNumber: 17
+                                    }, this) : groups.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-dfddf51250ab189a" + " " + "text-gray-400",
+                                        children: "No groups found."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/sections/landing/LocationCollections.tsx",
+                                        lineNumber: 64,
+                                        columnNumber: 17
+                                    }, this) : groups.map((group)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            onClick: ()=>router.push(`/groups/${group._id}`),
+                                            className: "jsx-dfddf51250ab189a" + " " + "flex-none w-[260px] h-[200px] sm:w-[310px] sm:h-[240px] bg-[#1A1A1A] rounded-lg shadow-lg overflow-hidden relative group cursor-pointer",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "jsx-dfddf51250ab189a" + " " + "absolute inset-0 w-full h-full",
+                                                    children: group.photo ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        src: group.photo,
+                                                        alt: group.name,
+                                                        layout: "fill",
+                                                        objectFit: "cover",
+                                                        className: "w-full h-full transform transition-transform duration-300 group-hover:scale-105"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/sections/landing/LocationCollections.tsx",
-                                                        lineNumber: 91,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "jsx-dfddf51250ab189a" + " " + "text-[#E0E0E0] text-xs sm:text-sm font-['Bricolage_Grotesque'] mt-1",
-                                                        children: [
-                                                            group.properties.length,
-                                                            " Properties"
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/src/sections/landing/LocationCollections.tsx",
-                                                        lineNumber: 94,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/sections/landing/LocationCollections.tsx",
-                                                lineNumber: 90,
-                                                columnNumber: 19
-                                            }, this)
-                                        ]
-                                    }, group._id, true, {
-                                        fileName: "[project]/src/sections/landing/LocationCollections.tsx",
-                                        lineNumber: 67,
-                                        columnNumber: 17
-                                    }, this))
+                                                        lineNumber: 75,
+                                                        columnNumber: 25
+                                                    }, this) : null
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/sections/landing/LocationCollections.tsx",
+                                                    lineNumber: 73,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    style: {
+                                                        background: 'linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%)'
+                                                    },
+                                                    className: "jsx-dfddf51250ab189a" + " " + "absolute inset-0 w-full h-full"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/sections/landing/LocationCollections.tsx",
+                                                    lineNumber: 85,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "jsx-dfddf51250ab189a" + " " + "absolute left-4 bottom-4 z-10",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                            className: "jsx-dfddf51250ab189a" + " " + "text-white text-base sm:text-lg font-medium font-['General_Sans'] tracking-wide",
+                                                            children: group.name
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/sections/landing/LocationCollections.tsx",
+                                                            lineNumber: 91,
+                                                            columnNumber: 23
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "jsx-dfddf51250ab189a" + " " + "text-[#E0E0E0] text-xs sm:text-sm font-['Bricolage_Grotesque'] mt-1",
+                                                            children: [
+                                                                group.properties.length,
+                                                                " Properties"
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/src/sections/landing/LocationCollections.tsx",
+                                                            lineNumber: 94,
+                                                            columnNumber: 23
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/sections/landing/LocationCollections.tsx",
+                                                    lineNumber: 90,
+                                                    columnNumber: 21
+                                                }, this)
+                                            ]
+                                        }, group._id, true, {
+                                            fileName: "[project]/src/sections/landing/LocationCollections.tsx",
+                                            lineNumber: 67,
+                                            columnNumber: 19
+                                        }, this))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/sections/landing/LocationCollections.tsx",
+                                    lineNumber: 60,
+                                    columnNumber: 13
+                                }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/sections/landing/LocationCollections.tsx",
-                                lineNumber: 57,
+                                lineNumber: 59,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2151,7 +2221,7 @@ var _s = __turbopack_context__.k.signature();
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/sections/landing/LocationCollections.tsx",
-                        lineNumber: 56,
+                        lineNumber: 58,
                         columnNumber: 9
                     }, this)
                 ]
@@ -2220,7 +2290,7 @@ const ProjectCard = ({ _id, name, location, gallery, trendingScore, priceRange }
     }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
         href: `/projects/${_id}`,
-        className: "group relative block w-full h-full overflow-hidden rounded-lg",
+        className: "group relative flex flex-col h-full overflow-hidden rounded-lg bg-[#262626]",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "relative aspect-[4/3] w-full overflow-hidden",
@@ -2250,22 +2320,22 @@ const ProjectCard = ({ _id, name, location, gallery, trendingScore, priceRange }
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "bg-[#262626] p-4",
+                className: "p-4 flex-1 flex flex-col bg-[#0A0A0A]",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                        className: "text-white text-lg font-medium truncate",
+                        className: "text-white text-lg font-medium line-clamp-2 mb-1",
                         children: name
                     }, void 0, false, {
                         fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
-                        lineNumber: 49,
-                        columnNumber: 7
+                        lineNumber: 42,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex items-center gap-1 mt-1",
+                        className: "flex items-center gap-1 mt-auto",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                                 xmlns: "http://www.w3.org/2000/svg",
-                                className: "w-4 h-4 text-gray-400",
+                                className: "w-4 h-4 text-gray-400 flex-shrink-0",
                                 fill: "none",
                                 viewBox: "0 0 24 24",
                                 stroke: "currentColor",
@@ -2277,8 +2347,8 @@ const ProjectCard = ({ _id, name, location, gallery, trendingScore, priceRange }
                                         d: "M12 11.25a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5z"
                                     }, void 0, false, {
                                         fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
-                                        lineNumber: 60,
-                                        columnNumber: 11
+                                        lineNumber: 52,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                         strokeLinecap: "round",
@@ -2286,33 +2356,33 @@ const ProjectCard = ({ _id, name, location, gallery, trendingScore, priceRange }
                                         d: "M19.5 11.25c0 5.25-7.5 9.75-7.5 9.75s-7.5-4.5-7.5-9.75a7.5 7.5 0 1115 0z"
                                     }, void 0, false, {
                                         fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
-                                        lineNumber: 65,
-                                        columnNumber: 11
+                                        lineNumber: 57,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
-                                lineNumber: 52,
-                                columnNumber: 9
+                                lineNumber: 44,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-gray-400 text-sm",
+                                className: "text-gray-400 text-sm truncate",
                                 children: location
                             }, void 0, false, {
                                 fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
-                                lineNumber: 71,
-                                columnNumber: 9
+                                lineNumber: 63,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
-                        lineNumber: 50,
-                        columnNumber: 7
+                        lineNumber: 43,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
-                lineNumber: 48,
+                lineNumber: 41,
                 columnNumber: 7
             }, this)
         ]
@@ -2351,63 +2421,77 @@ const TrendingProjects = ()=>{
         }
     }["TrendingProjects.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "w-full bg-[#1A1A1A] py-12 sm:py-16 lg:py-20",
+        className: "w-full bg-[#1A1A1A] py-8 sm:py-12 lg:py-14",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 sm:mb-8",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-0",
-                        children: "Top 10 Trending Projects This Week"
+            className: "w-full px-4 sm:px-6 lg:px-8",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-full",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 sm:mb-8",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-0 font-['Bricolage_Grotesque']",
+                            children: "Top 10 Trending Projects This Week"
+                        }, void 0, false, {
+                            fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
+                            lineNumber: 96,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
-                        lineNumber: 104,
+                        lineNumber: 95,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6",
+                        children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "text-gray-400",
+                            children: "Loading..."
+                        }, void 0, false, {
+                            fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
+                            lineNumber: 100,
+                            columnNumber: 15
+                        }, this) : properties.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "text-gray-400",
+                            children: "No trending properties found."
+                        }, void 0, false, {
+                            fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
+                            lineNumber: 102,
+                            columnNumber: 15
+                        }, this) : properties.map((property)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "h-full",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ProjectCard, {
+                                    ...property,
+                                    priceRange: property.priceRange
+                                }, void 0, false, {
+                                    fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
+                                    lineNumber: 106,
+                                    columnNumber: 19
+                                }, this)
+                            }, property._id, false, {
+                                fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
+                                lineNumber: 105,
+                                columnNumber: 17
+                            }, this))
+                    }, void 0, false, {
+                        fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
+                        lineNumber: 98,
                         columnNumber: 11
                     }, this)
-                }, void 0, false, {
-                    fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
-                    lineNumber: 103,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 sm:gap-6",
-                    children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "text-gray-400",
-                        children: "Loading..."
-                    }, void 0, false, {
-                        fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
-                        lineNumber: 108,
-                        columnNumber: 13
-                    }, this) : properties.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "text-gray-400",
-                        children: "No trending properties found."
-                    }, void 0, false, {
-                        fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
-                        lineNumber: 110,
-                        columnNumber: 13
-                    }, this) : properties.map((property)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ProjectCard, {
-                            ...property,
-                            priceRange: property.priceRange
-                        }, property._id, false, {
-                            fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
-                            lineNumber: 113,
-                            columnNumber: 15
-                        }, this))
-                }, void 0, false, {
-                    fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
-                    lineNumber: 106,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
+                lineNumber: 94,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
             fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
-            lineNumber: 102,
+            lineNumber: 93,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/sections/landing/TrendingProjects.tsx",
-        lineNumber: 101,
+        lineNumber: 92,
         columnNumber: 5
     }, this);
 };
@@ -2441,64 +2525,68 @@ var _s = __turbopack_context__.k.signature();
 const ArticleCard = ({ article })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
         href: `/articles/${article._id}`,
-        className: "flex flex-col w-[300px] sm:w-[360px] lg:w-[418.67px] flex-shrink-0",
+        className: "flex flex-col h-full group",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative w-full h-[200px] sm:h-[240px] lg:h-[280px] rounded-lg overflow-hidden",
+                className: "relative w-full aspect-[4/3] rounded-lg overflow-hidden bg-gray-800",
                 children: article.coverImage?.data || article.coverImage?.url ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     src: article.coverImage.data || article.coverImage.url,
                     alt: article.coverImage.name || article.title,
                     fill: true,
-                    className: "object-cover"
+                    className: "object-cover transition-transform duration-300 group-hover:scale-105"
                 }, void 0, false, {
                     fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
-                    lineNumber: 22,
+                    lineNumber: 25,
                     columnNumber: 11
                 }, this) : article.images && article.images[0] && (article.images[0].data || article.images[0].url) ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     src: article.images[0].data || article.images[0].url,
                     alt: article.images[0].name || article.title,
                     fill: true,
-                    className: "object-cover"
+                    className: "object-cover transition-transform duration-300 group-hover:scale-105"
                 }, void 0, false, {
                     fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
-                    lineNumber: 29,
+                    lineNumber: 32,
                     columnNumber: 11
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "w-full h-full flex items-center justify-center text-gray-400",
+                    className: "w-full h-full flex items-center justify-center bg-gray-800 text-gray-400",
                     children: "No Image"
                 }, void 0, false, {
                     fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
-                    lineNumber: 36,
+                    lineNumber: 39,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
-                lineNumber: 20,
+                lineNumber: 23,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "mt-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                        className: "text-white text-base sm:text-lg font-medium leading-snug sm:leading-7",
+                        className: "text-white text-lg font-medium leading-snug line-clamp-2",
                         children: article.title
                     }, void 0, false, {
                         fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
-                        lineNumber: 40,
+                        lineNumber: 45,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-white text-xs sm:text-sm mt-2 underline",
-                        children: article.date
-                    }, void 0, false, {
+                        className: "text-gray-400 text-sm mt-2",
+                        children: [
+                            article.date,
+                            " • ",
+                            article.readTime
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
-                        lineNumber: 43,
+                        lineNumber: 48,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
-                lineNumber: 39,
+                lineNumber: 44,
                 columnNumber: 7
             }, this)
         ]
@@ -2521,9 +2609,13 @@ const ArticlesSection = ()=>{
             }["ArticlesSection.useEffect"]).then({
                 "ArticlesSection.useEffect": (data)=>{
                     if (data.success) {
-                        setArticles(data.articles.filter({
-                            "ArticlesSection.useEffect": (a)=>a.featured
-                        }["ArticlesSection.useEffect"]));
+                        // Sort by date in descending order (newest first) and take first 3 featured articles
+                        const featured = data.articles.filter({
+                            "ArticlesSection.useEffect.featured": (a)=>a.featured
+                        }["ArticlesSection.useEffect.featured"]).sort({
+                            "ArticlesSection.useEffect.featured": (a, b)=>new Date(b.date).getTime() - new Date(a.date).getTime()
+                        }["ArticlesSection.useEffect.featured"]).slice(0, 3);
+                        setArticles(featured);
                     }
                     setLoading(false);
                 }
@@ -2535,78 +2627,85 @@ const ArticlesSection = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "w-full bg-[#1A1A1A] py-12 sm:py-16 lg:py-20",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 sm:mb-8",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-2xl sm:text-3xl font-medium text-white mb-4 sm:mb-0",
-                            children: "Featured Articles"
-                        }, void 0, false, {
-                            fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
-                            lineNumber: 72,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                            href: "/articles",
-                            className: "flex items-center text-white text-sm font-['Bricolage_Grotesque'] hover:opacity-80 transition-opacity underline",
-                            children: "See All"
-                        }, void 0, false, {
-                            fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
-                            lineNumber: 75,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
-                    lineNumber: 71,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "relative -mx-4 sm:-mx-6 lg:-mx-8",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex gap-4 sm:gap-7 overflow-x-auto pb-6 px-4 sm:px-6 lg:px-8 scrollbar-hide",
-                        children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-gray-400",
-                            children: "Loading..."
-                        }, void 0, false, {
-                            fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
-                            lineNumber: 85,
-                            columnNumber: 15
-                        }, this) : articles.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-gray-400",
-                            children: "No featured articles found."
-                        }, void 0, false, {
-                            fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
-                            lineNumber: 87,
-                            columnNumber: 15
-                        }, this) : articles.map((article)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ArticleCard, {
-                                article: article
+            className: "w-full px-4 sm:px-6 lg:px-8",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-full",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 sm:mb-10",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                className: "text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-0 font-['Bricolage_Grotesque']",
+                                children: "Featured Articles"
+                            }, void 0, false, {
+                                fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
+                                lineNumber: 83,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/articles",
+                                className: "text-white text-sm hover:opacity-80 transition-opacity underline font-['Bricolage_Grotesque']",
+                                children: "View All Articles"
+                            }, void 0, false, {
+                                fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
+                                lineNumber: 86,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
+                        lineNumber: 82,
+                        columnNumber: 11
+                    }, this),
+                    loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "text-gray-400",
+                        children: "Loading articles..."
+                    }, void 0, false, {
+                        fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
+                        lineNumber: 95,
+                        columnNumber: 13
+                    }, this) : articles.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "text-gray-400",
+                        children: "No featured articles found."
+                    }, void 0, false, {
+                        fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
+                        lineNumber: 97,
+                        columnNumber: 13
+                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8",
+                        children: articles.map((article)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "h-full",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ArticleCard, {
+                                    article: article
+                                }, void 0, false, {
+                                    fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
+                                    lineNumber: 102,
+                                    columnNumber: 19
+                                }, this)
                             }, article._id, false, {
                                 fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
-                                lineNumber: 90,
+                                lineNumber: 101,
                                 columnNumber: 17
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
-                        lineNumber: 83,
-                        columnNumber: 11
+                        lineNumber: 99,
+                        columnNumber: 13
                     }, this)
-                }, void 0, false, {
-                    fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
-                    lineNumber: 82,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
+                lineNumber: 81,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
             fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
-            lineNumber: 70,
+            lineNumber: 80,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/sections/landing/ArticlesSection.tsx",
-        lineNumber: 69,
+        lineNumber: 79,
         columnNumber: 5
     }, this);
 };
@@ -2801,7 +2900,7 @@ var _s = __turbopack_context__.k.signature();
     /**
    * Determines the background class based on scroll position
    * @type {string}
-   */ const navBackgroundClass = isScrolled ? 'bg-black/30 backdrop-blur-xl border border-white/20 shadow-2xl' : 'bg-transparent';
+   */ const navBackgroundClass = isScrolled ? 'bg-gradient-to-r from-black/70 to-black/50 backdrop-blur-xl border-b border-white/10 shadow-2xl shadow-black/30' : 'bg-gradient-to-r from-black/40 to-black/20 backdrop-blur-md border-b border-white/5';
     const mobileMenuBackgroundClass = isMenuOpen ? 'bg-black shadow-lg' : navBackgroundClass;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
         className: `fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isMenuOpen ? mobileMenuBackgroundClass : navBackgroundClass}`,
@@ -3297,15 +3396,13 @@ const footerData = {
             type: 'hours'
         }
     ],
-    copyright: '© 2025 the real estate universe. All rights reserved.',
+    copyright: ' 2025 the real estate universe. All rights reserved.',
     legalLinks: [
+        // { label: 'Privacy Policy', href: '#' },
+        // { label: 'Terms of Service', href: '#' },
         {
-            label: 'Privacy Policy',
-            href: '#'
-        },
-        {
-            label: 'Terms of Service',
-            href: '#'
+            label: 'Powered by Xaneur Innovations.',
+            href: 'https://xaneur.com'
         }
     ]
 };
@@ -3444,7 +3541,7 @@ const getIconComponent = (icon, className = 'w-5 h-5 text-[#F7F7F7]')=>{
  */ const Footer = ()=>{
     const { logo, description, socialLinks, quickLinks, contactInfo, copyright, legalLinks } = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$footer$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["footerData"];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        className: "flex flex-col items-center py-16 md:py-24 bg-[#0A0A0A] w-full",
+        className: "flex flex-col items-center pt-16 pb-5 md:pt-24 md:pb-6 bg-[#0A0A0A] w-full",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex flex-col w-full max-w-[1280px] gap-12 px-4 sm:px-6 lg:px-8",
             children: [
@@ -3634,6 +3731,7 @@ const getIconComponent = (icon, className = 'w-5 h-5 text-[#F7F7F7]')=>{
                                 children: legalLinks.map((link, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: link.href,
                                         className: "font-['Bricolage_Grotesque'] font-extralight text-sm leading-6 text-[#9CA3AF] hover:underline",
+                                        target: "_blank",
                                         children: link.label
                                     }, index, false, {
                                         fileName: "[project]/src/components/common/Footer.tsx",
@@ -4261,44 +4359,6 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
-// 'use client';
-// import Hero from "@/sections/landing/Hero";
-// import FeaturedProjects from "@/sections/landing/FeaturedProjects";
-// import ResidentialSpaces from "@/sections/landing/ResidentialSpaces";
-// import CommercialSpaces from "@/sections/landing/CommercialSpaces";
-// import LocationCollections from "@/sections/landing/LocationCollections";
-// import TrendingProjects from "@/sections/landing/TrendingProjects";
-// import ArticlesSection from "@/sections/landing/ArticlesSection";
-// import Navigation from "@/components/common/Navigation";
-// import Footer from "@/components/common/Footer";
-// import React, { useState } from 'react';
-// import HomeContactModal from '@/components/common/HomeContactModal';
-// import { Property } from '@/app/admin/types';
-// export default function Home() {
-//   const [searchActive, setSearchActive] = useState(false);
-//   const [matched, setMatched] = useState<Property[]>([]);
-//   return (
-//     <>
-//       <HomeContactModal />
-//       <Navigation />
-//       <Hero 
-//         onSearch={(results: Property[]) => {
-//           setMatched(results);
-//           setSearchActive(results.length > 0);
-//         }}
-//         searchActive={searchActive}
-//         matched={matched}
-//       />
-//       {!searchActive && <FeaturedProjects />}
-//       {!searchActive && <ResidentialSpaces />}
-//       {!searchActive && <CommercialSpaces />}
-//       {!searchActive && <LocationCollections />}
-//       {!searchActive && <TrendingProjects />}
-//       {!searchActive && <ArticlesSection />}
-//       <Footer />
-//     </>
-//   );
-// }
 __turbopack_context__.s({
     "default": (()=>Home)
 });
@@ -4337,12 +4397,12 @@ function Home() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$common$2f$HomeContactModal$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 63,
+                lineNumber: 23,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$common$2f$Navigation$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 64,
+                lineNumber: 24,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sections$2f$landing$2f$Hero$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4354,48 +4414,48 @@ function Home() {
                 matched: matched
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 65,
+                lineNumber: 25,
                 columnNumber: 7
             }, this),
             !searchActive && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sections$2f$landing$2f$FeaturedProjects$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 73,
+                lineNumber: 33,
                 columnNumber: 25
             }, this),
             !searchActive && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sections$2f$landing$2f$ResidentialSpaces$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 74,
+                lineNumber: 34,
                 columnNumber: 25
             }, this),
             !searchActive && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sections$2f$landing$2f$CommercialSpaces$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 75,
+                lineNumber: 35,
                 columnNumber: 25
             }, this),
             !searchActive && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sections$2f$landing$2f$LocationCollections$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 76,
+                lineNumber: 36,
                 columnNumber: 25
             }, this),
             !searchActive && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sections$2f$landing$2f$TrendingProjects$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 77,
+                lineNumber: 37,
                 columnNumber: 25
             }, this),
             !searchActive && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$sections$2f$landing$2f$ArticlesSection$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 78,
+                lineNumber: 38,
                 columnNumber: 25
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$common$2f$Footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 79,
+                lineNumber: 39,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/page.tsx",
-        lineNumber: 62,
+        lineNumber: 22,
         columnNumber: 5
     }, this);
 }

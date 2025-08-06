@@ -63,6 +63,32 @@ export const Inquiries: React.FC = () => {
     showToast('Opening inquiry details...', 'info');
   };
 
+  const handleDeleteInquiry = async (id: string) => {
+    if (window.confirm('Are you sure you want to delete this inquiry? This action cannot be undone.')) {
+      try {
+        const response = await fetch(`/api/inquiries/${id}`, {
+          method: 'DELETE',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+        });
+
+        const data = await response.json();
+
+        if (data.success) {
+          // Update the local state to remove the deleted inquiry
+          setInquiries(prevInquiries => prevInquiries.filter(inquiry => inquiry._id !== id));
+          showToast('Inquiry deleted successfully', 'success');
+        } else {
+          throw new Error(data.message || 'Failed to delete inquiry');
+        }
+      } catch (error) {
+        console.error('Error deleting inquiry:', error);
+        showToast(error.message || 'Failed to delete inquiry', 'error');
+      }
+    }
+  };
+
   const statusOptions = [
     { value: '', label: 'All Status' },
     { value: 'new', label: 'New' },
@@ -124,29 +150,29 @@ export const Inquiries: React.FC = () => {
       title: 'Total Inquiries',
       value: inquiries.length.toString(),
       icon: MessageSquare,
-      color: 'text-blue-500',
-      bg: 'bg-gradient-to-tr from-blue-900/60 to-blue-800/30',
+      color: 'text-blue-400',
+      bg: 'bg-black/30',
     },
     {
       title: 'New Inquiries',
       value: inquiries.filter(i => i.status === 'new').length.toString(),
       icon: AlertCircle,
-      color: 'text-yellow-500',
-      bg: 'bg-gradient-to-tr from-yellow-900/60 to-yellow-800/30',
+      color: 'text-yellow-400',
+      bg: 'bg-black/30',
     },
     {
       title: 'Qualified Leads',
       value: inquiries.filter(i => i.status === 'qualified').length.toString(),
       icon: CheckCircle,
-      color: 'text-green-500',
-      bg: 'bg-gradient-to-tr from-green-900/60 to-green-800/30',
+      color: 'text-green-400',
+      bg: 'bg-black/30',
     },
     {
       title: 'Closed Inquiries',
       value: inquiries.filter(i => i.status === 'closed').length.toString(),
       icon: Clock,
       color: 'text-gray-400',
-      bg: 'bg-gradient-to-tr from-gray-900/60 to-gray-800/30',
+      bg: 'bg-black/30',
     },
   ];
 
@@ -157,7 +183,7 @@ export const Inquiries: React.FC = () => {
   };
 
   return (
-    <div className="p-8 min-h-screen bg-gray-900">
+    <div className="p-8 min-h-screen bg-black">
       <div className="mb-8">
         <h1 className="text-2xl font-bold text-white mb-2">Inquiries</h1>
         <p className="text-gray-400">Manage customer inquiries and leads</p>
@@ -174,7 +200,7 @@ export const Inquiries: React.FC = () => {
                   <p className="text-sm text-gray-400 mb-1">{stat.title}</p>
                   <p className="text-2xl font-bold text-white">{stat.value}</p>
                 </div>
-                <div className={`p-3 rounded-full bg-gray-800 ${stat.color} shadow-lg`}>
+                <div className={`p-3 rounded-full bg-black/30 ${stat.color} shadow-lg`}>
                   <Icon className="h-6 w-6" />
                 </div>
               </div>
@@ -194,7 +220,7 @@ export const Inquiries: React.FC = () => {
                 placeholder="Search inquiries..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-10 pr-4 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
+                className="w-full pl-10 pr-4 py-2 bg-black border border-gray-800 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
               />
             </div>
             <Select

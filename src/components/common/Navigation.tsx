@@ -97,8 +97,8 @@ const NavigationBar = () => {
    * @type {string}
    */
   const navBackgroundClass = isScrolled 
-    ? 'bg-black/30 backdrop-blur-xl border border-white/20 shadow-2xl'
-    : 'bg-transparent';
+    ? 'bg-gradient-to-r from-black/70 to-black/50 backdrop-blur-xl border-b border-white/10 shadow-2xl shadow-black/30'
+    : 'bg-gradient-to-r from-black/40 to-black/20 backdrop-blur-md border-b border-white/5';
 
   const mobileMenuBackgroundClass = isMenuOpen ? 'bg-black shadow-lg' : navBackgroundClass;
 

@@ -93,11 +93,9 @@ export async function POST(req: NextRequest) {
   try {
     await connectDB();
     const data = await req.json();
-    console.log('POST /api/properties received data:', JSON.stringify(data, null, 2));
     const property = await Property.create(data);
     return NextResponse.json({ success: true, property });
   } catch (error) {
-    console.error('Property POST error:', error);
     return NextResponse.json({ success: false, message: 'Internal server error' }, { status: 500 });
   }
 }
@@ -106,7 +104,6 @@ export async function PUT(req: NextRequest) {
   try {
     await connectDB();
     const data = await req.json();
-    console.log('PUT /api/properties received data:', JSON.stringify(data, null, 2));
     if (!data._id) return NextResponse.json({ success: false, message: 'Missing property ID' }, { status: 400 });
     // If this property is being marked as home, unset 'home' for all others
     if (data.home === true) {
@@ -125,7 +122,6 @@ export async function PUT(req: NextRequest) {
     );
     return NextResponse.json({ success: true, property });
   } catch (error) {
-    console.error('Property PUT error:', error);
     return NextResponse.json({ success: false, message: 'Internal server error' }, { status: 500 });
   }
 }

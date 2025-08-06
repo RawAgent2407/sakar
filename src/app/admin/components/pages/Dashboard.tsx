@@ -183,17 +183,17 @@ export const Dashboard: React.FC = () => {
                   <Icon className="h-7 w-7" />
                 </div>
               </div>
-              <div className="flex items-center mt-2">
-                {stat.trend === 'up' ? (
+              {/* <div className="flex items-center mt-2"> */}
+                {/* {stat.trend === 'up' ? (
                   <ArrowUp className="h-4 w-4 text-green-500 mr-1" />
                 ) : (
                   <ArrowDown className="h-4 w-4 text-red-500 mr-1" />
                 )}
                 <span className={`text-sm ${stat.trend === 'up' ? 'text-green-500' : 'text-red-500'}`}>
                   {stat.change}
-                </span>
-                <span className="text-sm text-gray-400 ml-1">from last month</span>
-              </div>
+                </span> */}
+                {/* <span className="text-sm text-gray-400 ml-1">from last month</span> */}
+              {/* </div> */}
             </Card>
           );
         })}

@@ -1,13 +1,4 @@
-// import React from 'react';
-// import Image from 'next/image';
-// import { GalleryItem } from '@/app/admin/types';
 
-// interface FeaturedDevelopmentProps {
-//   text: string;
-//   images: GalleryItem[];
-// }
-
-// const FeaturedDevelopment: React.FC<FeaturedDevelopmentProps> = ({ text, images }) => {
 //   return (
 //     <section className="w-full bg-black px-4 sm:px-8 md:px-16 py-10 md:py-20">
 //       <div className="mx-auto flex flex-col gap-6">

@@ -5,7 +5,7 @@
 html, body, #root {
   height: 100%;
   min-height: 100vh;
-  background: #1A1A1A;
+  background: #000000;
   margin: 0;
   padding: 0;
   overflow: hidden;
